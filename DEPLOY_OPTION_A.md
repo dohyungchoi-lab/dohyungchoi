@@ -6,14 +6,12 @@
 
 ## Step 1. GitHub에 코드 업로드 및 무료 호스팅(GitHub Pages) 켜기
 
-1. 개인 [GitHub](https://github.com/new)에 로그인하여 새 Public 저장소(Repository)를 생성합니다.
-   - Repository name: `dohyungchoi.com` (또는 `dohyungchoi.github.io`)
-2. 터미널(또는 제트스키에게 저장소 주소를 알려주시면 자동 실행 가능)에서 아래 명령어로 푸시합니다:
+1. 생성된 저장소: `https://github.com/dohyungchoi-lab/dohyungchoi.git`
+2. 터미널에서 푸시:
    ```bash
-   git remote add origin https://github.com/<본인_깃허브_아이디>/dohyungchoi.com.git
-   git push -u origin main
+   git -C /usr/local/google/home/dohyungchoi/Desktop/project/dohyungchoi-site push -u origin main
    ```
-3. GitHub 저장소 상단 메뉴의 **`Settings`** → 좌측 **`Pages`** 클릭:
+3. GitHub 저장소([https://github.com/dohyungchoi-lab/dohyungchoi/settings/pages](https://github.com/dohyungchoi-lab/dohyungchoi/settings/pages)) 접속:
    - **Build and deployment** → `Source`: `Deploy from a branch` 선택
    - **Branch**: `main` / `/ (root)` 선택 후 **`Save`** 클릭
    - **Custom domain** 칸에 `dohyungchoi.com`이 자동으로 입력되어 있는 것을 확인하고 **`Enforce HTTPS`** 체크
@@ -36,7 +34,7 @@
 | **`A`** | `@` | `185.199.109.153` |
 | **`A`** | `@` | `185.199.110.153` |
 | **`A`** | `@` | `185.199.111.153` |
-| **`CNAME`** | `www` | `<본인_깃허브_아이디>.github.io` |
+| **`CNAME`** | `www` | `dohyungchoi-lab.github.io` |
 
 ---
 
