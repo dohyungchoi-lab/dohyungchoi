@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" fill="#1B365D" rx="12"/>
+  <path d="M24 184 H216" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+  <path d="M24 134 H216" stroke="rgba(255,255,255,0.10)" stroke-width="1" stroke-dasharray="4 4"/>
+  <path d="M24 84 H216" stroke="rgba(255,255,255,0.10)" stroke-width="1" stroke-dasharray="4 4"/>
+  <rect x="38" y="112" width="26" height="72" rx="3" fill="#68B68E"/>
+  <rect x="78" y="88" width="26" height="96" rx="3" fill="#7BA4DB"/>
+  <rect x="118" y="64" width="26" height="120" rx="3" fill="#68B68E"/>
+  <rect x="158" y="44" width="26" height="140" rx="3" fill="#F3F2EE"/>
+  <polyline points="51,102 91,78 131,56 171,36" fill="none" stroke="#F5C451" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="51" cy="102" r="4.5" fill="#F5C451"/>
+  <circle cx="91" cy="78" r="4.5" fill="#F5C451"/>
+  <circle cx="131" cy="56" r="4.5" fill="#F5C451"/>
+  <circle cx="171" cy="36" r="5.5" fill="#F5C451"/>
+  <text x="24" y="214" fill="#F3F2EE" font-family="monospace" font-size="13" font-weight="bold">S&amp;P 500 ALPHA · 2026</text>
+</svg>

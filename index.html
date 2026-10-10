@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dohyung Choi — Senior Account Manager @ Google & Data Storyteller</title>
+  <meta name="description" content="Official website and executive resume of Dohyung Choi — Senior Account Manager at Google Korea (LCS Finance), McGill University B.Com graduate, and author of the Data Story statistical analysis column." />
+  <meta property="og:title" content="Dohyung Choi — Curriculum Vitae & Data Story Archive" />
+  <meta property="og:description" content="Bridging quantitative data analytics with enterprise digital growth. Resume & archived statistical studies on dohyungchoi.com." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dohyungchoi.com" />
+
+  <!-- Google Fonts: Newsreader (Editorial Serif), Plus Jakarta Sans, IBM Plex Sans KR, IBM Plex Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- Sticky Editorial Header -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#overview" class="brand-identity" id="brand-logo">
+        <span class="brand-name">Dohyung Choi</span>
+        <span class="brand-domain">dohyungchoi.com</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a href="#overview" class="nav-link active" id="nav-overview">Overview</a>
+        <a href="#section-work" class="nav-link" id="nav-experience">Experience</a>
+        <a href="#section-education" class="nav-link" id="nav-education">Education</a>
+        <a href="#projects-column" class="nav-link" id="nav-column">Data Column</a>
+      </nav>
+
+      <div class="header-controls">
+        <button type="button" class="lang-toggle" id="btn-lang-toggle" aria-label="Switch Language (English / Korean)">
+          <span id="lang-en" class="active-lang">EN</span>
+          <span>/</span>
+          <span id="lang-kr">KR</span>
+        </button>
+
+        <button type="button" class="theme-toggle" id="btn-theme-toggle" aria-label="Toggle Light/Dark Theme">
+          <span id="theme-icon">☾</span>
+        </button>
+
+        <a href="assets/Dohyung_Choi_Resume.pdf" download="Dohyung_Choi_Resume.pdf" class="btn-primary" id="btn-download-cv">
+          Download Resume (PDF)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="main-container">
+    <!-- Hero / Executive Overview -->
+    <section class="hero-section" id="overview">
+      <div class="hero-grid">
+        <div class="hero-intro">
+          <span class="hero-eyebrow" id="hero-eyebrow">Senior Account Manager @ Google · McGill B.Com · Data Storyteller</span>
+          <h1 class="hero-title" id="hero-title">Bridging quantitative data analytics with enterprise digital growth.</h1>
+          <p class="hero-lead" id="hero-lead">
+            Senior Account Manager at Google Korea advising Tier-1 financial and insurance enterprises on data-driven performance marketing, C-level strategic partnerships, and measurement architecture.
+          </p>
+
+          <div class="hero-meta-bar">
+            <span class="hero-meta-item">
+              <strong>Role:</strong> <span id="hero-role">Google Korea (LCS Finance)</span>
+            </span>
+            <span>·</span>
+            <span class="hero-meta-item">
+              <strong>Base:</strong> <span id="hero-location">Seoul, South Korea</span>
+            </span>
+            <span>·</span>
+            <span class="hero-meta-item">
+              <a href="mailto:dohyung.choi@gmail.com" id="hero-email-link">dohyung.choi@gmail.com</a>
+            </span>
+            <span>·</span>
+            <span class="hero-meta-item">
+              <a href="tel:+821095000429" id="hero-phone-link">(010) 9500-0429</a>
+            </span>
+          </div>
+        </div>
+
+        <!-- Key Quantified Impact Ledger -->
+        <aside class="impact-ledger" id="impact-ledger" aria-label="Key Career Impact Metrics">
+          <!-- Dynamically populated by app.js -->
+        </aside>
+      </div>
+    </section>
+
+    <!-- View Mode Switcher Bar -->
+    <div class="workspace-toolbar" role="toolbar" aria-label="Layout Mode Switcher">
+      <div class="view-tabs">
+        <button type="button" class="view-tab active" id="tab-split" data-mode="split">
+          Editorial Split View (Resume + Column)
+        </button>
+        <button type="button" class="view-tab" id="tab-resume" data-mode="resume">
+          Resume Focus
+        </button>
+        <button type="button" class="view-tab" id="tab-projects" data-mode="projects">
+          Data Column Grid
+        </button>
+      </div>
+      <div class="toolbar-status" id="toolbar-status">
+        Showing Curriculum Vitae &amp; 11 Archived Data Studies
+      </div>
+    </div>
+
+    <!-- Two-Column Editorial Workspace: Left = Resume, Right = Dedicated Data Story Column -->
+    <div class="editorial-workspace mode-split" id="editorial-workspace">
+      <!-- LEFT COLUMN: Executive Resume (CV) -->
+      <section class="resume-column" id="resume-column" aria-labelledby="resume-col-title">
+        <div class="column-header">
+          <div class="column-title-group">
+            <span class="column-index">01</span>
+            <h2 class="column-title" id="resume-col-title">Curriculum Vitae</h2>
+          </div>
+          <span class="column-subtitle" id="resume-col-sub">Updated April 2026</span>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="resume-section-block" id="section-work">
+          <div class="resume-block-label" id="label-work">Professional Experience</div>
+          <div id="experience-list"></div>
+        </div>
+
+        <!-- Academic Background -->
+        <div class="resume-section-block" id="section-education">
+          <div class="resume-block-label" id="label-edu">Academic Background</div>
+          <div class="edu-grid" id="education-list"></div>
+        </div>
+
+        <!-- Military Service & Leadership -->
+        <div class="resume-section-block" id="section-leadership">
+          <div class="resume-block-label" id="label-leadership">Military Service &amp; Leadership</div>
+          <div id="leadership-list"></div>
+        </div>
+
+        <!-- Core Competencies -->
+        <div class="resume-section-block" id="section-skills">
+          <div class="resume-block-label" id="label-skills">Core Competencies &amp; Technical Stack</div>
+          <div class="skills-matrix" id="skills-list"></div>
+        </div>
+      </section>
+
+      <!-- RIGHT COLUMN: Dedicated Data Story Archive Column -->
+      <aside class="projects-column" id="projects-column" aria-labelledby="col-projects-title">
+        <div class="column-header">
+          <div class="column-title-group">
+            <span class="column-index">02</span>
+            <h2 class="column-title" id="col-projects-title">Data Story Column</h2>
+          </div>
+          <span class="column-subtitle" id="col-projects-sub">Statistical Archive</span>
+        </div>
+
+        <p class="column-intro" id="col-projects-intro">
+          An archived collection of empirical data stories originally published on Data Playground (2018–2019).
+        </p>
+
+        <!-- Search & Topic Filter Controls -->
+        <div class="column-controls">
+          <div class="search-input-wrap">
+            <span class="search-icon">⌕</span>
+            <input
+              type="search"
+              id="project-search-input"
+              class="column-search"
+              placeholder="Search studies by topic, keyword, or R method..."
+              aria-label="Search Data Story studies"
+            />
+          </div>
+          <div class="category-pills" id="category-pills-container" role="tablist">
+            <!-- Populated by app.js -->
+          </div>
+        </div>
+
+        <!-- Scrollable List of Archived Data Analysis Projects -->
+        <div class="projects-list" id="projects-list-container">
+          <!-- Populated by app.js -->
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Slide-Over Article Reader Drawer -->
+  <div class="reader-backdrop" id="reader-backdrop" aria-hidden="true"></div>
+  <aside class="reader-drawer" id="reader-drawer" role="dialog" aria-modal="true" aria-labelledby="reader-title">
+    <div class="reader-topbar">
+      <div class="reader-Topmeta">
+        <span id="reader-meta-date">January 26, 2019</span>
+      </div>
+      <div class="reader-actions">
+        <button type="button" class="btn-close-reader" id="btn-prev-article" title="Previous Study">← Prev</button>
+        <button type="button" class="btn-close-reader" id="btn-next-article" title="Next Study">Next →</button>
+        <button type="button" class="btn-close-reader" id="btn-close-reader">✕ Close (ESC)</button>
+      </div>
+    </div>
+
+    <div class="reader-scroll" id="reader-scroll-container">
+      <header class="reader-article-header">
+        <span class="reader-category-tag" id="reader-cat-tag">Economics &amp; Policy</span>
+        <h2 class="reader-title" id="reader-title">Article Title</h2>
+        <div id="reader-orig-title" style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--ink-tertiary);"></div>
+      </header>
+
+      <div class="reader-kr-summary-box" id="reader-summary-box">
+        <strong id="reader-summary-label">Executive Summary</strong>
+        <span id="reader-summary-text"></span>
+      </div>
+
+      <article class="reader-body" id="reader-body-content">
+        <!-- Full migrated WordPress HTML + 76 local R statistical charts rendered here -->
+      </article>
+    </div>
+  </aside>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <strong>Dohyung Choi</strong> · Senior Account Manager, Google Korea · McGill University B.Com
+      </div>
+      <div class="footer-links">
+        <a href="mailto:dohyung.choi@gmail.com">dohyung.choi@gmail.com</a>
+        <a href="assets/Dohyung_Choi_Resume.pdf" download="Dohyung_Choi_Resume.pdf">Resume PDF</a>
+        <a href="#overview">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
