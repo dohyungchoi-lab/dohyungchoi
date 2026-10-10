@@ -29,8 +29,8 @@
       <nav class="nav-links" aria-label="Primary Navigation">
         <a href="#overview" class="nav-link active" id="nav-overview">Overview</a>
         <a href="#section-work" class="nav-link" id="nav-experience">Experience</a>
-        <a href="#section-education" class="nav-link" id="nav-education">Education</a>
         <a href="#projects-column" class="nav-link" id="nav-column">Data Column</a>
+        <a href="#daily-briefings-section" class="nav-link" id="nav-briefings">Daily Briefings</a>
       </nav>
 
       <div class="header-controls">
@@ -95,6 +95,9 @@
         <button type="button" class="view-tab active" id="tab-split" data-mode="split">
           Editorial Split View (Resume + Column)
         </button>
+        <button type="button" class="view-tab" id="tab-briefings" data-mode="briefings">
+          Daily Briefings Hub
+        </button>
         <button type="button" class="view-tab" id="tab-resume" data-mode="resume">
           Resume Focus
         </button>
@@ -103,7 +106,7 @@
         </button>
       </div>
       <div class="toolbar-status" id="toolbar-status">
-        Showing Curriculum Vitae &amp; 11 Archived Data Studies
+        Showing Curriculum Vitae, 12 Data Studies &amp;Automated Daily Briefings
       </div>
     </div>
 
@@ -181,9 +184,54 @@
         </div>
       </aside>
     </div>
+
+    <!-- SECTION 03: Automated Daily Market & Tech Intelligence Briefings -->
+    <section class="briefings-hub-section" id="daily-briefings-section" aria-labelledby="briefings-sec-title">
+      <div class="column-header briefings-header">
+        <div class="column-title-group">
+          <span class="column-index">03</span>
+          <h2 class="column-title" id="briefings-sec-title">Daily Intelligence Briefings</h2>
+          <span class="live-pulse-badge" id="briefings-live-badge">
+            <span class="pulse-dot"></span> Automated Daily Pipeline
+          </span>
+        </div>
+        <span class="column-subtitle" id="briefings-sec-sub">SEC Filings · 13F Smart Money · Frontier Tech · S&amp;P 500 Quant Scanner</span>
+      </div>
+
+      <p class="briefings-intro" id="briefings-sec-intro">
+        Three automated daily research pipelines synthesizing US SEC EDGAR filings (10-Q, 8-K, Form 4), 13F institutional portfolios, global frontier tech creator insights, and S&amp;P 500 Warren Buffett alpha screening.
+      </p>
+
+      <!-- 3 Stream Pillar Cards (Latest Edition Spotlight per Stream) -->
+      <div class="stream-pillars-grid" id="stream-pillars-container">
+        <!-- Populated dynamically by app.js -->
+      </div>
+
+      <!-- Archive Filter Bar & Search -->
+      <div class="briefings-toolbar">
+        <div class="category-pills" id="briefing-stream-pills" role="tablist">
+          <!-- Populated dynamically by app.js -->
+        </div>
+        <div class="search-input-wrap briefing-search-wrap">
+          <span class="search-icon">⌕</span>
+          <input
+            type="search"
+            id="briefing-search-input"
+            class="column-search"
+            placeholder="Filter briefings by date (YYYY-MM-DD), ticker (NVDA, LEN, FICO), or keyword..."
+            aria-label="Search Daily Briefings"
+          />
+        </div>
+      </div>
+
+      <!-- Structured Chronological Grid of Daily Reports -->
+      <div class="briefings-archive-grid" id="briefings-grid-container">
+        <!-- Populated dynamically by app.js -->
+      </div>
+    </section>
   </main>
 
-  <!-- Slide-Over Article Reader Drawer -->
+  <!-- Slide-Over Article & Briefing Reader Drawer -->
   <div class="reader-backdrop" id="reader-backdrop" aria-hidden="true"></div>
   <aside class="reader-drawer" id="reader-drawer" role="dialog" aria-modal="true" aria-labelledby="reader-title">
     <div class="reader-topbar">
@@ -191,14 +239,17 @@
         <span id="reader-meta-date">January 26, 2019</span>
       </div>
       <div class="reader-actions">
-        <button type="button" class="btn-close-reader" id="btn-prev-article" title="Previous Study">← Prev</button>
-        <button type="button" class="btn-close-reader" id="btn-next-article" title="Next Study">Next →</button>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn-close-reader btn-external-report" id="btn-open-standalone" style="display: none;">
+          ↗ Open Full Report
+        </a>
+        <button type="button" class="btn-close-reader" id="btn-prev-article" title="Previous">← Prev</button>
+        <button type="button" class="btn-close-reader" id="btn-next-article" title="Next">Next →</button>
         <button type="button" class="btn-close-reader" id="btn-close-reader">✕ Close (ESC)</button>
       </div>
     </div>
 
     <div class="reader-scroll" id="reader-scroll-container">
-      <header class="reader-article-header">
+      <header class="reader-article-header" id="reader-article-header">
         <span class="reader-category-tag" id="reader-cat-tag">Economics &amp; Policy</span>
         <h2 class="reader-title" id="reader-title">Article Title</h2>
         <div id="reader-orig-title" style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--ink-tertiary);"></div>
@@ -210,7 +261,7 @@
       </div>
 
       <article class="reader-body" id="reader-body-content">
-        <!-- Full migrated WordPress HTML + 76 local R statistical charts rendered here -->
+        <!-- Full migrated WordPress HTML or Daily Briefing iframe rendered here -->
       </article>
     </div>
   </aside>
@@ -224,12 +275,14 @@
       <div class="footer-links">
         <a href="mailto:dohyung.choi@gmail.com">dohyung.choi@gmail.com</a>
         <a href="assets/Dohyung_Choi_Resume.pdf" download="Dohyung_Choi_Resume.pdf">Resume PDF</a>
+        <a href="#daily-briefings-section">Daily Briefings</a>
         <a href="#overview">Back to Top ↑</a>
       </div>
     </div>
   </footer>
 
   <script src="data.js"></script>
+  <script src="daily_briefings.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

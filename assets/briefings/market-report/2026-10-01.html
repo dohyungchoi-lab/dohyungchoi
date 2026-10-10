@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Daily Market Report] 글로벌 테크 &amp; 슈퍼인베스터 데일리 동향 리포트 (2026-10-01)</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+      background-color: #f1f5f9;
+      color: #1e293b;
+      margin: 0;
+      padding: 24px 12px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+      overflow: hidden;
+      border: 1px solid #e2e8f0;
+    }
+    .header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #1e40af 100%);
+      color: #ffffff;
+      padding: 36px 32px 28px 32px;
+    }
+    .header-badge {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(8px);
+      color: #e2e8f0;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .header h1 {
+      margin: 0 0 8px 0;
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .header-subtitle {
+      color: #cbd5e1;
+      font-size: 13px;
+      margin: 0;
+    }
+    .content {
+      padding: 32px;
+    }
+    .macro-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 10px;
+      margin-bottom: 24px;
+    }
+    @media (max-width: 768px) {
+      .macro-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    @media (max-width: 480px) {
+      .macro-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    .macro-item {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 12px 8px;
+      text-align: center;
+    }
+    .macro-label {
+      font-size: 11px;
+      font-weight: 600;
+      color: #64748b;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+    }
+    .macro-val {
+      font-size: 15px;
+      font-weight: 800;
+      color: #0f172a;
+    }
+    .macro-up {
+      font-size: 11px;
+      font-weight: 700;
+      color: #16a34a;
+      margin-top: 2px;
+    }
+    .macro-down {
+      font-size: 11px;
+      font-weight: 700;
+      color: #dc2626;
+      margin-top: 2px;
+    }
+    .macro-stable {
+      font-size: 11px;
+      font-weight: 700;
+      color: #2563eb;
+      margin-top: 2px;
+    }
+    .summary-box {
+      background: #eff6ff;
+      border-left: 4px solid #3b82f6;
+      border-radius: 0 10px 10px 0;
+      padding: 16px 20px;
+      margin-bottom: 28px;
+    }
+    .summary-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1d4ed8;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .theme-list {
+      margin: 8px 0 0 0;
+      padding-left: 18px;
+      font-size: 13.5px;
+      color: #1e3a8a;
+    }
+    .theme-list li {
+      margin-bottom: 6px;
+    }
+    .section-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: #0f172a;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 8px;
+      margin-top: 36px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title span.number-badge {
+      background: #0f172a;
+      color: #ffffff;
+      width: 24px;
+      height: 24px;
+      border-radius: 6px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+    }
+    .card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 20px 22px;
+      margin-bottom: 16px;
+      transition: all 0.2s ease;
+    }
+    .card:hover {
+      border-color: #cbd5e1;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .card-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #0f172a;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card-title a {
+      color: #0f172a;
+      text-decoration: none;
+    }
+    .card-title a:hover {
+      color: #2563eb;
+      text-decoration: underline;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    .badge-sec { background: #dbeafe; color: #1d4ed8; }
+    .badge-8k { background: #fee2e2; color: #b91c1c; }
+    .badge-buy { background: #dcfce7; color: #15803d; }
+    .badge-sell { background: #ffedd5; color: #c2410c; }
+    .badge-core { background: #f3e8ff; color: #7e22ce; }
+    .badge-citadel { background: #fef3c7; color: #92400e; }
+    .badge-info { background: #e0e7ff; color: #4338ca; }
+    .badge-green { background: #d1fae5; color: #065f46; }
+    .card-body {
+      font-size: 13.5px;
+      color: #334155;
+      line-height: 1.6;
+    }
+    .card-body ul {
+      margin: 6px 0 0 0;
+      padding-left: 18px;
+    }
+    .card-body li {
+      margin-bottom: 6px;
+    }
+    .card-body strong {
+      color: #0f172a;
+    }
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12.5px;
+      margin: 16px 0 20px 0;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #e2e8f0;
+    }
+    .data-table th {
+      background: #f8fafc;
+      color: #475569;
+      font-weight: 700;
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .data-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #f1f5f9;
+      color: #334155;
+    }
+    .data-table tr:last-child td {
+      border-bottom: none;
+    }
+    .data-table tr:hover td {
+      background: #f8fafc;
+    }
+    .tag-green { color: #16a34a; font-weight: 700; }
+    .tag-red { color: #dc2626; font-weight: 700; }
+    .tag-blue { color: #2563eb; font-weight: 700; }
+    .footer {
+      background: #f8fafc;
+      border-top: 1px solid #e2e8f0;
+      padding: 20px 32px;
+      font-size: 12px;
+      color: #64748b;
+      text-align: center;
+    }
+    .calendar-card {
+      background: #f8fafc;
+      border: 1px dashed #cbd5e1;
+      border-radius: 10px;
+      padding: 16px;
+      font-size: 13px;
+    }
+    .calendar-card ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    .calendar-card li {
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-badge">Daily Market &amp; Whale Intelligence</div>
+      <h1>글로벌 테크 &amp; 슈퍼인베스터 데일리 동향 리포트</h1>
+      <p class="header-subtitle">발행일자: 2026년 10월 1일 (목) | 분석 기준: 미국 증시 9월 30일 3분기 말 마감</p>
+    </div>
+
+    <div class="content">
+      <!-- Section 1: Executive Summary -->
+      <div class="section-title">
+        <span class="number-badge">1</span> Executive Summary &amp; Macro Pulse
+      </div>
+
+      <div class="macro-grid">
+        <div class="macro-item">
+          <div class="macro-label">S&amp;P 500</div>
+          <div class="macro-val">7,655.90</div>
+          <div class="macro-down">-0.26%</div>
+        </div>
+        <div class="macro-item">
+          <div class="macro-label">나스닥 종합</div>
+          <div class="macro-val">26,861.06</div>
+          <div class="macro-up">+0.20%</div>
+        </div>
+        <div class="macro-item">
+          <div class="macro-label">다우존스</div>
+          <div class="macro-val">50,906.05</div>
+          <div class="macro-down">-0.86%</div>
+        </div>
+        <div class="macro-item">
+          <div class="macro-label">美 국채 10년물</div>
+          <div class="macro-val">5.29%</div>
+          <div class="macro-down">+3.5bp</div>
+        </div>
+        <div class="macro-item">
+          <div class="macro-label">WTI / Brent</div>
+          <div class="macro-val">$90.3 / $97.9</div>
+          <div class="macro-down">공급 불안</div>
+        </div>
+        <div class="macro-item">
+          <div class="macro-label">CBOE VIX</div>
+          <div class="macro-val">16.08</div>
+          <div class="macro-stable">+0.25%</div>
+        </div>
+      </div>
+
+      <div class="summary-box">
+        <div class="summary-title">📌 오늘의 핵심 테마 3줄 총평</div>
+        <ul class="theme-list">
+          <li><strong>분기말 윈도우 드레싱과 국채금리 5.29% 속 테크주 나홀로 차별화</strong>: 3분기 마지막 거래일 다우 지수가 440pt 이상 하락하고 10년물 금리가 5.29%까지 치솟았으나, 나스닥은 빅테크의 막강한 현금창출력을 바탕으로 +0.2% 상승하며 견고한 디커플링을 입증했습니다.</li>
+          <li><strong>Alphabet 플래그십 'Gemini 4 Argon' 전격 공개 &amp; Apple 존 터너스 체제 10월 13일 스마트홈 대공세</strong>: 구글이 Gemini 3.5 Pro를 건너뛰고 차세대 AI 플래그십 'Gemini 4 Argon'을 전격 공개함과 동시에 EU 집행위의 데이터 개방 명령에 집행정지 가처분 항소를 제기했으며, 애플은 존 터너스 CEO의 조직 슬림화와 함께 10월 13일 'HomePad' 중심 스마트홈 신제품 이벤트를 확정했습니다.</li>
+          <li><strong>슈퍼인베스터의 극명한 포트폴리오 분기점</strong>: 버핏의 $3,647억 현금 요새(국채 5.29%로 연간 약 $193억 무위험 이자)와 GOOGL/AAPL 코어 집중, 애크먼의 GOOGL 완전 청산 후 무차입 금융 통행세 독점망(ICE/Visa/MA) 선점, 시타델의 델타 중립 퀀트와 헬스케어(AbbVie) 방어 로테이션이 각기 다른 최적 해법을 제시하고 있습니다.</li>
+        </ul>
+      </div>
+
+      <!-- Section 2: Big Tech Core Radar -->
+      <div class="section-title">
+        <span class="number-badge">2</span> Big Tech Core Radar (Google · Palantir · Apple &amp; Peers)
+      </div>
+
+      <!-- Alphabet Card -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>🌐</span>
+            <a href="https://www.sec.gov/edgar/browse/?CIK=0001652044" target="_blank">Alphabet Inc. (GOOGL / GOOG • CIK: 0001652044)</a>
+          </div>
+          <div>
+            <span class="badge badge-sec">SEC 공시</span>
+            <span class="badge badge-core">핵심동향</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <ul>
+            <li><strong>★ [규제 대응] EU 일반법원(General Court)에 집행정지 가처분 항소 제기 (9월 30일)</strong>: 유럽연합(EU) 집행위원회가 구글의 검색 데이터와 안드로이드 생태계를 경쟁 AI/검색 기업에 개방하도록 강제한 명령에 대해, 알파벳은 9월 30일 <a href="https://www.sec.gov/edgar/browse/?CIK=0001652044" target="_blank">EU 일반법원</a>에 긴급 집행정지 명령(Interim Suspension)을 청구하는 공식 항소장을 제출했습니다. 구글은 이용자 개인정보 및 보안에 '심각하고 회복 불가능한 위해(Serious and Irreparable Harm)'를 초래할 수 있음을 강력히 소명했습니다.</li>
+            <li><strong>SEC Form 144 및 Form 4 내부자 지분 변동 공시 (9월 30일)</strong>: 사외이사 Frances Arnold의 보통주 매도 계획(<a href="https://www.sec.gov/edgar/browse/?CIK=0001652044" target="_blank">Form 144</a>)과 최고회계책임자(CAO) Marsida Saraci의 RSU 베스팅 취득(487주, <a href="https://www.sec.gov/edgar/browse/?CIK=0001652044" target="_blank">Form 4</a>), CFO Anat Ashkenazi의 정례 지분 보고가 완료되었습니다.</li>
+            <li><strong>무탄소 HPC 전력 인프라 지분 확보</strong>: 앞서 공시된 <a href="https://www.sec.gov/edgar/browse/?CIK=0001652044" target="_blank">Schedule 13G</a>에 따라 테라울프(TeraWulf, WULF) 지분 7.6%(4,101만주)를 확보하여 TPU v6(Trillium) 구동을 위한 무탄소 전력망을 선제적으로 확보했습니다.</li>
+            <li><strong>★ 차세대 플래그십 AI 모델 'Gemini 4 Argon' 전격 공개 (9월 30일)</strong>: 구글은 잠정 계획되었던 Gemini 3.5 Pro 출시를 과감히 건너뛰고, 차세대 아키텍처 기반의 플래그십 모델 <strong>'Gemini 4 Argon'</strong>을 공식 발표했습니다. 선별된 글로벌 사이버 보안 파트너 및 미 행정부의 사전 릴리스 안전성 검증 프로세스에 우선 투입되며, 멀티모달 추론 및 자율 코딩 능력이 획기적으로 개선되었습니다.</li>
+            <li><strong>DOJ 애드테크 반독점 소송 '공동 최종 제안 판결안' 제출 D-1 (10월 2일 마감)</strong>: 버지니아 연방법원의 AdX 강제 분할 기각 이후, 법무부(DOJ)와의 행위적 구제책(Prebid 경쟁 연동 강화)을 담은 최종 합의안 제출이 초읽기에 들어갔습니다.</li>
+            <li><strong>2026년 9월 스팸 업데이트(Spam Update) 순항</strong>: 9월 24일부터 개시된 검색 스팸 차단 업데이트가 정상 전개되며 생성형 AI 저품질 콘텐츠 필터링과 검색 광고 단가 방어가 동시에 이뤄지고 있습니다.</li>
+            <li><strong>투자 리스크 및 월가 뷰</strong>: 10년물 국채 5.29% 고금리 국면에서 EU 규제 항소 이슈로 단기 주가 변동성이 발생했으나, 버핏의 3대 코어 보유(약 $378억, 12.6%)와 Gemini 4의 기술적 우위가 강력한 하방 지지력을 제공하고 있습니다.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Palantir Card -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>🛡️</span>
+            <a href="https://www.sec.gov/edgar/browse/?CIK=0001321655" target="_blank">Palantir Technologies Inc. (PLTR • CIK: 0001321655)</a>
+          </div>
+          <div>
+            <span class="badge badge-sec">Form 4/144</span>
+            <span class="badge badge-info">AIP 확장</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <ul>
+            <li><strong>SEC Form 4 &amp; Form 144 정례 공시</strong>: 사외이사 Lauren Elaina Friedman 및 핵심 임원진의 사전 확정 10b5-1 플랜 매도가 <a href="https://www.sec.gov/edgar/browse/?CIK=0001321655" target="_blank">Form 4</a>에 정례 공시되었습니다. 총 차입금 0원, 순현금 $40억의 철벽 재무 안정성은 변함없이 유지 중입니다.</li>
+            <li><strong>Barclays Bank PLC 연계 시장연계노트(Market-Linked Notes) 결제</strong>: 팔란티어 보통주 수익률에 연동되는 바클레이즈의 구조화 파생상품이 10월 1일 결제(Settlement)되며 기관 자금의 꾸준한 유입을 증명했습니다.</li>
+            <li><strong>★ 앤트로픽 'Claude Opus 5.5' AIP 플랫폼 전격 탑재 (9월 29일)</strong>: 팔란티어는 자사 인공지능 플랫폼(AIP)에 최신 초거대 모델 <strong>'Claude Opus 5.5'</strong>를 공식 통합했다고 발표했습니다. 일반 상업용 엔터프라이즈는 물론, 미국 정부의 IL2(Impact Level 2) 보안 인가 고객사까지 즉각 활용할 수 있어 정부 및 국방 파이프라인의 에이전틱 AI 수주가 대폭 가속화될 전망입니다.</li>
+            <li><strong>주가 $186.97 기록 및 밸류에이션 점검</strong>: 52주 범위 $106.37~$207.52 내에서 최근 급등에 따른 기간 조정을 거치고 있습니다. 미 연방항공청(FAA) 차세대 SMART 항공 관제 데이터 오케스트레이션 수주와 미 육군 $4,810만 탄약 통합 관리 계약 등 정부 부문 독점 파이프라인이 탄탄합니다.</li>
+            <li><strong>투자 리스크 및 월가 뷰</strong>: 선행 P/E 150배 수준의 프리미엄 밸류에이션은 10년물 국채 5.29% 고금리 환경에서 밸류에이션 부담을 줄 수 있으므로, 보유자는 트레일링 스탑(-5%~-7%) 원칙을 철저히 준수하는 전략이 유효합니다.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Apple Card -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>🍏</span>
+            <a href="https://www.sec.gov/edgar/browse/?CIK=0000320193" target="_blank">Apple Inc. (AAPL • CIK: 0000320193)</a>
+          </div>
+          <div>
+            <span class="badge badge-sec">SEC 공시</span>
+            <span class="badge badge-8k">리더십 개편</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <ul>
+            <li><strong>★ John Ternus CEO 체제 본격 가동 &amp; 조직 슬림화 단행</strong>: 9월 1일 취임 및 9월 26일 공식 발효된 존 터너스 신임 CEO는 중간 관리자 계층을 과감히 축소하고 엔지니어와 최고 경영진 간의 직통 보고 라인을 구축하는 '린(Lean) 조직 개편'을 전격 단행했습니다. 일부 엔지니어링 프로그램 매니저 및 디렉터 직함을 정리하며 기민한 스타트업형 의사결정 구조로 재편하고 있습니다.</li>
+            <li><strong>연례 출시 캘린더 탈피 &amp; 상시 혁신 체제 전환</strong>: 봄/가을로 고착화되었던 기존 하드웨어 출시 주기를 벗어나 연중 상시 신제품을 선보이는 유연한 제품 라이프사이클을 도입하기로 결정했습니다.</li>
+            <li><strong>Tim Cook 집행의장 체제 안착</strong>: 팀 쿡은 이사회 집행의장으로서 글로벌 공급망 외교 및 미국·EU·중국 등 주요국 정부 정책 대응에 전념하고 있습니다.</li>
+            <li><strong>★ 10월 13일 스마트홈 생태계 전격 발표 확정</strong>: 애플은 오는 10월 13일 차세대 스마트홈 디바이스 라인업을 공개할 예정입니다. 핵심 라인업은 코드명 <strong>J490 'HomePad'</strong>(스마트 디스플레이 허브), 신형 <strong>HomePod mini</strong>, 그리고 고성능 A-시리즈 칩이 탑재된 <strong>Apple TV</strong>로, 대대적으로 업그레이드된 Siri AI 에이전트의 물리적 구동 거점이 될 전망입니다.</li>
+            <li><strong>iPhone Duo 수율 개선 &amp; 실적 발표 일정</strong>: 첫 폴더블 'iPhone Duo'의 초기 생산 수율이 60% 선에서 점진적으로 개선되고 있으며, 애플의 FY26 Q4 실적 발표는 <strong>2026년 10월 29일</strong>로 예정되어 있습니다.</li>
+            <li><strong>투자 리스크 및 월가 뷰</strong>: 메모리 반도체 가격 상승에 따른 마진 압박 우려가 있으나, BofA 목표가 $370, 모건스탠리 $365 유지. 버크셔 해서웨이 포트폴리오 압도적 1위(약 $659.5억, 22.04%)로서 글로벌 최고 안전자산 지위를 수성하고 있습니다.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Peer Group Card -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>⚡</span>
+            <span>핵심 피어 그룹 동향 (META · NVDA · MSFT)</span>
+          </div>
+          <div>
+            <span class="badge badge-green">Big Tech Peers</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <ul>
+            <li><strong>Meta Platforms (<a href="https://www.sec.gov/edgar/browse/?CIK=0001326801" target="_blank">META</a>)</strong>: 'Meta Connect 2026' 에코시스템 확장. 퍼스널 대화형 AI <strong>'Muse'</strong>, 웨어러블 <strong>'Muse Charm'</strong>, <strong>'Ray-Ban Meta Audio'</strong> 안경을 앞세워 온디바이스 에이전트 하드웨어 주도권을 강화했습니다. 개발자용 Llama Stack 및 Llama Guard 4 배포를 통해 오픈소스 AI 생태계 점유율을 굳히고 있습니다.</li>
+            <li><strong>Nvidia (<a href="https://www.sec.gov/edgar/browse/?CIK=0001045810" target="_blank">NVDA</a>)</strong>: 공급망 약정액 $2,790억 달성 &amp; AWS 200만 대 GPU 클러스터. 블랙웰 울트라(Blackwell Ultra) 및 베라 루빈(Vera Rubin) 수요 폭증으로 FY27 2Q 기준 공급 약정이 $2,790억에 도달했습니다. AWS와의 대규모 클러스터 배치가 순항 중이며, 젠슨 황 CEO는 AI 인프라 통제 안전 메커니즘 구축을 역설하고 있습니다.</li>
+            <li><strong>Microsoft (<a href="https://www.sec.gov/edgar/browse/?CIK=0000789019" target="_blank">MSFT</a>)</strong>: 10월 7일 'Local AI' Windows/Surface 스페셜 이벤트 카운트다운. 사티아 나델라와 엔비디아 젠슨 황 CEO의 공동 기조연설이 예정된 로컬 AI 이벤트 기대감이 최고조에 달했습니다. 브래드 스미스 부회장의 'AI 킬 스위치' 도입 지지 선언과 함께 엔터프라이즈 보안 Copilot 도입이 가속화되고 있습니다. 빌 애크먼의 퍼싱 스퀘어 Top 3 고확신 핵심 보유주입니다.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Section 3: Super Investors Whale Tracker -->
+      <div class="section-title">
+        <span class="number-badge">3</span> Super Investors Whale Tracker (버핏 · 켄 그리핀 · 빌 애크먼)
+      </div>
+
+      <!-- Buffett Card -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>🏛️</span>
+            <a href="https://www.sec.gov/edgar/browse/?CIK=0001067983" target="_blank">Warren Buffett • Berkshire Hathaway (CIK: 0001067983)</a>
+          </div>
+          <div>
+            <span class="badge badge-sec">13F-HR</span>
+            <span class="badge badge-buy">순매수 전환</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <p>• <strong>포트폴리오 규모</strong>: 27개 종목, 총 <strong>$2,992.5억</strong> (상위 5개 종목 집중도 약 71.6%)<br>
+          • <strong>현금성 자산</strong>: <strong>$3,647억</strong> (사상 최대 규모, 단기 국채 5.29% 수익률로 연간 약 <strong>$192.9억</strong> 무위험 이자 창출, 일평균 ~$5,280만 달러 적립)<br>
+          • <strong>핵심 전략 변동</strong>: 14분기 연속 지속되던 주식 순매도를 종결하고 <strong>$198억의 주식 순매수</strong>로 전격 전환.</p>
+
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th style="width: 8%;">순위</th>
+                <th style="width: 28%;">종목명 (Ticker)</th>
+                <th style="width: 18%;">보유 주식수</th>
+                <th style="width: 18%;">지분 가치</th>
+                <th style="width: 12%;">비중</th>
+                <th style="width: 16%;">최근 변동 상태</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>1</strong></td>
+                <td><strong>Apple Inc. (AAPL)</strong></td>
+                <td>227,917,808주</td>
+                <td>약 <strong>$659.5억</strong></td>
+                <td><strong>22.04%</strong></td>
+                <td><span class="tag-blue">동결 (1위 코어)</span></td>
+              </tr>
+              <tr>
+                <td><strong>2</strong></td>
+                <td><strong>American Express (AXP)</strong></td>
+                <td>약 1.51억주</td>
+                <td>약 <strong>$512.0억</strong></td>
+                <td><strong>17.11%</strong></td>
+                <td><span class="tag-blue">동결 (영구 보유)</span></td>
+              </tr>
+              <tr>
+                <td><strong>3</strong></td>
+                <td><strong>Alphabet Inc. (GOOGL/GOOG)</strong></td>
+                <td>GOOGL 7,879만 / GOOG 2,718만</td>
+                <td>약 <strong>$377.6억</strong></td>
+                <td><strong>12.62%</strong></td>
+                <td><span class="tag-green">▲ 대규모 추가 매수</span></td>
+              </tr>
+              <tr>
+                <td><strong>4</strong></td>
+                <td><strong>Coca-Cola Co. (KO)</strong></td>
+                <td>400,000,000주</td>
+                <td>약 <strong>$326.0억</strong></td>
+                <td><strong>10.89%</strong></td>
+                <td><span class="tag-blue">동결 (현금 배당)</span></td>
+              </tr>
+              <tr>
+                <td><strong>5</strong></td>
+                <td><strong>Bank of America (BAC)</strong></td>
+                <td>483,394,015주</td>
+                <td>약 <strong>$275.4억</strong></td>
+                <td><strong>9.20%</strong></td>
+                <td><span class="tag-red">▼ 연속 분할 매도</span></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p><strong>버핏의 전략적 시사점</strong>: 국채금리가 5.29%로 다시 치솟은 현 매크로 환경에서 버핏의 $3,647억 현금 요새는 그 어떤 자산보다 강력한 무기입니다. 매일 약 $5,280만 달러의 무위험 이자가 꼬박꼬박 재투자되며, 시장 변동성 발생 시 언제든 우량주를 저가 매수할 수 있는 압도적 유동성을 제공합니다. 버핏은 이 현금 흐름의 안전판 위에서 Apple(존 터너스 혁신)과 Alphabet(Gemini 4 Argon 및 전력망 선점)을 양대 성장 축으로 견고히 유지하고 있습니다.</p>
+        </div>
+      </div>
+
+      <!-- Ackman Card -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>🎯</span>
+            <a href="https://www.sec.gov/edgar/browse/?CIK=0001336528" target="_blank">Bill Ackman • Pershing Square Capital Management (CIK: 0001336528)</a>
+          </div>
+          <div>
+            <span class="badge badge-sec">13F-HR</span>
+            <span class="badge badge-sell">통행세 인프라 이동</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <p>• <strong>포트폴리오 규모</strong>: 14개 초고확신 종목, 총 <strong>$194.7억</strong> (전분기 대비 42% 대폭 증가)</p>
+
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">구분</th>
+                <th style="width: 35%;">종목명 (Ticker)</th>
+                <th style="width: 45%;">전략적 의미 및 핵심 투자 로직</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>핵심 Top 5</strong></td>
+                <td><strong>UBER, Brookfield (BN), MSFT, AMZN, HHH</strong></td>
+                <td>강력한 잉여현금흐름(FCF)과 독점적 플랫폼 해자를 보유한 고확신 자산</td>
+              </tr>
+              <tr>
+                <td><strong>★ 신규 편입</strong></td>
+                <td><strong>Intercontinental Exchange (ICE)</strong></td>
+                <td><span class="tag-green">[신규 발굴]</span> NYSE 모회사. AI가 대체 불가능한 원천 금융 거래망 선취매</td>
+              </tr>
+              <tr>
+                <td><strong>★ 13F 신규 편입</strong></td>
+                <td><strong>Visa (V), Mastercard (MA), SPGI, Netflix</strong></td>
+                <td>CapEx가 필요 없는 글로벌 무차입 통행세(Toll-booth) 인프라 집중 매수</td>
+              </tr>
+              <tr>
+                <td><strong>✕ 전량 매도</strong></td>
+                <td><strong>Alphabet (GOOGL), Universal Music (UMG)</strong></td>
+                <td><span class="tag-red">완전 청산</span>. 밸류에이션 차익 실현 및 대규모 CapEx/경기 사이클 리스크 선제 회피</td>
+              </tr>
+              <tr>
+                <td><strong>▲ 비중 확대</strong></td>
+                <td><strong>Uber, Microsoft, Meta Platforms, QSR</strong></td>
+                <td>독점적 소프트웨어 네트워크 및 가격결정력 보유 소비재 플랫폼 지분 추가 증매</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p><strong>애크먼의 전략적 시사점</strong>: 애크먼은 10년물 국채 5.29% 고금리 국면에서 빅테크 간 천문학적 AI 데이터센터 CapEx 치킨게임을 극도로 경계하고 있습니다. 이에 따라 추가 설비투자가 사실상 전무한 <strong>무차입 독점 금융 통행세 인프라(ICE, Visa, Mastercard, S&amp;P Global)</strong>로 자금을 집중 재배치했습니다. 거래가 발생할 때마다 인플레이션에 연동된 수수료를 챙기는 이들 비즈니스는 고금리 시대 최고의 방어형 성장 모델입니다.</p>
+        </div>
+      </div>
+
+      <!-- Citadel Card -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>🏰</span>
+            <a href="https://www.sec.gov/edgar/browse/?CIK=0001423053" target="_blank">Ken Griffin • Citadel Advisors LLC (CIK: 0001423053)</a>
+          </div>
+          <div>
+            <span class="badge badge-sec">13F-HR</span>
+            <span class="badge badge-citadel">퀀트 델타 중립</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <p>• <strong>포트폴리오 규모</strong>: 퀀트 멀티스트래티지 총 운용자산 <strong>~$8,750억</strong> (파생상품 북 포함)</p>
+
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th style="width: 25%;">카테고리</th>
+                <th style="width: 40%;">주요 보유 자산 (Ticker / Instruments)</th>
+                <th style="width: 35%;">운용 전략 및 포지션 특징</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>지수 헤지 &amp; 롱</strong></td>
+                <td><strong>SPY 옵션(콜/풋 스트래들), QQQ 옵션, IVV ETF</strong></td>
+                <td>국채금리 5.29% 및 유가 변동성 충격을 무력화하는 델타 중립 헤지</td>
+              </tr>
+              <tr>
+                <td><strong>테크 &amp; 반도체</strong></td>
+                <td><strong>Micron (MU), Nvidia (NVDA 콜), Tesla (TSLA 콜)</strong></td>
+                <td>AI 메모리 및 차세대 가속기 업사이드에 비대칭적 콜옵션 레버리지 유지</td>
+              </tr>
+              <tr>
+                <td><strong>비상장 &amp; 차세대</strong></td>
+                <td><strong>SpaceX, Cerebras Systems, MEM ETF</strong></td>
+                <td>비상장 AI 가속기(Cerebras) 및 프라이빗 우주 인프라 선취매</td>
+              </tr>
+              <tr>
+                <td><strong>★ 리스크 관리</strong></td>
+                <td><strong>Situational Awareness 80%+ 청산 ($4B+ 블록딜)</strong></td>
+                <td><span class="tag-red">과열 AI 펀드 언와인딩</span> 완료, AbbVie 등 고배당 헬스케어 방어주 편입</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p><strong>그리핀의 전략적 시사점</strong>: 시타델은 인수한 AI 헤지펀드 'Situational Awareness'의 $40억 이상 포지션을 80% 이상 전격 블록딜로 청산하여 현금화했습니다. 켄 그리핀은 무분별한 AI 전력·데이터센터 지출에 따른 마진 훼손을 경고하며, 고배당 헬스케어(AbbVie)와 델타 중립 파생 구조를 통해 5.29%의 고금리 변동성을 완벽히 흡수하고 있습니다.</p>
+        </div>
+      </div>
+
+      <!-- Section 4: Cross-Intersection & Actionable Insights -->
+      <div class="section-title">
+        <span class="number-badge">4</span> Cross-Intersection &amp; Actionable Insights
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>🔄</span>
+            <span>스마트머니 vs. 빅테크 교차 분석 매트릭스</span>
+          </div>
+          <div>
+            <span class="badge badge-info">종목별 종합 컨센서스</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th style="width: 18%;">기업명 (Ticker)</th>
+                <th style="width: 16%;">워런 버핏 (Berkshire)</th>
+                <th style="width: 16%;">켄 그리핀 (Citadel)</th>
+                <th style="width: 16%;">빌 애크먼 (Pershing)</th>
+                <th style="width: 34%;">스마트머니 컨센서스 &amp; 핵심 쟁점</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Alphabet (GOOGL)</strong></td>
+                <td><span class="tag-green">▲ 3대 코어 ($378억)</span></td>
+                <td>퀀트 델타 롱 포지션</td>
+                <td><span class="tag-red">✕ 전량 매도 (청산)</span></td>
+                <td><strong>[극과 극의 시각차]</strong> 버핏의 FCF &amp; Gemini 4 Argon 해자 신뢰 vs 애크먼의 차익실현 및 금융독점망 이동. 테라울프(WULF) 7.6% 전력망 선점</td>
+              </tr>
+              <tr>
+                <td><strong>Apple (AAPL)</strong></td>
+                <td><span class="tag-blue">★ 1위 코어 (22.0%)</span></td>
+                <td>옵션 헤지 운용</td>
+                <td>포트폴리오 제외</td>
+                <td>존 터너스 신임 CEO '린 조직 개편' 및 상시 제품 출시 전환. 10/13 스마트홈(HomePad/Siri AI) 이벤트 발표 확정</td>
+              </tr>
+              <tr>
+                <td><strong>Palantir (PLTR)</strong></td>
+                <td>포트폴리오 제외</td>
+                <td>퀀트 롱/숏 포지션</td>
+                <td>포트폴리오 제외</td>
+                <td>앤트로픽 'Claude Opus 5.5' AIP 전격 탑재(미 정부 IL2 지원). Barclays 시장연계노트 결제(10/1). 선행 P/E 150배 트레일링 스탑 준수</td>
+              </tr>
+              <tr>
+                <td><strong>Microsoft (MSFT)</strong></td>
+                <td>포트폴리오 제외</td>
+                <td>멀티전략 테크 롱</td>
+                <td><span class="tag-blue">★ Top 3 핵심주</span></td>
+                <td>10/7 'Local AI' Windows/Surface 스페셜 이벤트(나델라 &amp; 젠슨 황 키노트). AI 킬 스위치 지지 등 엔터프라이즈 신뢰성 선점</td>
+              </tr>
+              <tr>
+                <td><strong>Meta (META)</strong></td>
+                <td>포트폴리오 제외</td>
+                <td>멀티전략 모멘텀 롱</td>
+                <td><span class="tag-green">▲ 비중 확대</span></td>
+                <td>'Meta Connect 2026' 성료. 대화형 AI 'Muse', 'Muse Charm', Ray-Ban Audio, Llama Stack 개발자 배포 가속화</td>
+              </tr>
+              <tr>
+                <td><strong>Nvidia (NVDA)</strong></td>
+                <td>포트폴리오 제외</td>
+                <td><span class="tag-green">콜옵션 레버리지</span></td>
+                <td>포트폴리오 제외</td>
+                <td>공급 약정액 $2,790억 돌파. AWS 200만 대 GPU 클러스터 배치 및 젠슨 황 AI 안전 표준 강조</td>
+              </tr>
+              <tr>
+                <td><strong>독점 데이터망 (ICE/V/MA)</strong></td>
+                <td>AXP 집중 보유</td>
+                <td>마켓메이킹 유동성</td>
+                <td><span class="tag-green">★ ICE 신규 + V/MA</span></td>
+                <td>CapEx가 필요 없는 무차입 통행세. AI가 침범할 수 없는 원천 금융 거래 데이터 해자에 스마트머니 집중</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Actionable Strategy Recommendations -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>💡</span>
+            <span>투자자를 위한 3대 실전 전략 제언</span>
+          </div>
+          <div>
+            <span class="badge badge-buy">Action Plan</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <ul>
+            <li><strong>국채 10년물 5.29% 시대: '무차입 통행세'와 '현금창출 메가캡' 5:5 바벨 전략</strong>: 10년물 국채금리가 5.29%까지 치솟고 유가가 $90선을 상회하는 국면에서는 천문학적 설비투자(CapEx) 부담이 전혀 없는 무차입 금융 인프라(ICE, Visa, Mastercard, American Express)와 막대한 잉여현금흐름(FCF)으로 자사주 매입과 배당을 지탱하는 메가캡 테크(Apple, Alphabet, Microsoft)를 균형 있게 보유하는 바벨 전략이 가장 안정적인 알파를 창출합니다.</li>
+            <li><strong>Palantir의 Claude Opus 5.5 탑재와 고멀티플 대응</strong>: AIP에 Claude Opus 5.5가 탑재되며 정부(IL2) 및 민간 수주 파이프라인은 더욱 견고해졌으나, 선행 P/E 150배 수준의 고멀티플은 5%대 금리 환경에서 기간 조정을 수반할 수 있습니다. 기존 보유자는 트레일링 스탑(-5%~-7%)으로 수익을 방어하며 업사이드를 추종해야 합니다.</li>
+            <li><strong>Alphabet의 Gemini 4 Argon 등판 &amp; Apple 존 터너스 체제의 실행력 주목</strong>: 알파벳이 Gemini 3.5 Pro를 건너뛰고 플래그십 Gemini 4 Argon을 전격 공개한 것은 모델 진화 속도가 가속화되고 있음을 보여줍니다. 또한 애플 존 터너스 CEO의 조직 슬림화와 10월 13일 스마트홈 이벤트(HomePad/Siri AI)는 하드웨어-AI 결합의 새로운 모멘텀이 될 것이므로 적극적 비중 유지가 권장됩니다.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Calendar -->
+      <div class="calendar-card">
+        <strong style="color: #0f172a; font-size: 14px; display: block; margin-bottom: 8px;">📅 주요 공시 및 글로벌 매크로 캘린더</strong>
+        <ul>
+          <li><strong>2026-10-01 (오늘)</strong>: Barclays Bank Palantir 연계 시장연계노트(Market-Linked Notes) 결제일</li>
+          <li><strong>2026-10-02</strong>: Google vs DOJ 애드테크 반독점 소송 공동 최종 제안 판결안(Joint Proposed Final Judgment) 제출 마감</li>
+          <li><strong>2026-10-07</strong>: Microsoft 'Local AI' Windows/Surface 스페셜 이벤트 (Satya Nadella &amp; Jensen Huang 공동 기조연설)</li>
+          <li><strong>2026-10-13</strong>: Apple 스마트홈 신제품 이벤트 (J490 HomePad, HomePod mini, Apple TV &amp; 차세대 Siri AI 공개)</li>
+          <li><strong>2026-10-29</strong>: Apple FY26 Q4 실적 발표 (존 터너스 CEO 체제 첫 실적 발표)</li>
+          <li><strong>2026-10월 하순</strong>: Big Tech 3분기 어닝 시즌 개막 (Alphabet, Microsoft, Meta 클라우드 실적 및 AI CapEx 가이던스)</li>
+          <li><strong>2026-11-14</strong>: SEC 3분기 13F-HR 공시 마감 (버크셔 해서웨이, 시타델, 퍼싱 스퀘어 3분기 확정 포트폴리오 공개)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer">
+      본 보고서는 미국 증권거래위원회(SEC EDGAR) 공식 공시(Schedule 13G, 13F-HR, Form 4, Form 144, 8-K, 10-Q) 및 글로벌 금융 시장 데이터를 바탕으로 작성된 데일리 투자 인텔리전스 리포트입니다.
+    </div>
+  </div>
+</body>
+</html>

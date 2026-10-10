@@ -6,6 +6,7 @@
         experience: "Experience",
         education: "Education",
         column: "Data Column",
+        briefings: "Daily Briefings",
         downloadCv: "Download Resume (PDF)"
       },
       hero: {
@@ -29,15 +30,16 @@
           label: "Performance marketing efficiency improvement across Google Search, YouTube & Performance Max"
         },
         {
-          value: "12 Studies",
-          label: "Python quantitative equity research (2026) & archived R statistical studies (76+ visualizations)"
+          value: "12 Studies + Daily",
+          label: "Python quant research (2026), 11 R statistical studies & 3 automated daily market/tech briefings"
         }
       ],
       toolbar: {
         splitView: "Editorial Split View (Resume + Column)",
+        briefingsOnly: "Daily Briefings Hub",
         resumeOnly: "Resume Focus",
         projectsOnly: "Data Column Grid",
-        status: "Showing Curriculum Vitae (Apr 2026) & 12 Data / Quant Studies"
+        status: "Showing Curriculum Vitae (Apr 2026), 12 Data Studies & Automated Daily Briefings"
       },
       resumeHeaders: {
         index: "01",
@@ -145,6 +147,45 @@
         figsLabel: "charts",
         minRead: "min read",
         summaryTitle: "Executive Summary"
+      },
+      briefings: {
+        title: "Daily Intelligence Briefings",
+        liveBadge: "Automated Daily Pipeline",
+        subtitle: "SEC Filings · 13F Smart Money · Frontier Tech · S&P 500 Quant Scanner",
+        intro: "Three automated daily intelligence pipelines synthesizing US SEC EDGAR filings (10-Q, 8-K, Form 4), 13F institutional portfolios, global frontier tech creator insights, and S&P 500 Warren Buffett alpha screening.",
+        searchPlaceholder: "Filter briefings by date (YYYY-MM-DD), ticker (NVDA, LEN, FICO), or keyword...",
+        readLatestBtn: "Read Latest",
+        filterStreamBtn: "Filter Stream",
+        openBriefingBtn: "Open Briefing →",
+        openStandaloneBtn: "↗ Open Standalone Report",
+        latestLabel: "Latest Edition",
+        editionsUnit: "editions",
+        streams: {
+          all: "All Briefings",
+          "market-report": "글로벌 테크 & 슈퍼인베스터 동향",
+          "frontier-tech": "빅테크 & 4대 미래기술 (유튜버 10인)",
+          "buffett-alpha": "S&P 500 워런 버핏 알파 스캐너"
+        },
+        pillars: [
+          {
+            key: "market-report",
+            tag: "Stream 01 · Daily 08:00 KST",
+            title: "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+            desc: "Cross-analyzes US Big Tech SEC EDGAR filings (10-Q, 8-K, Form 4 insider trades) with 13F institutional smart-money portfolio shifts."
+          },
+          {
+            key: "frontier-tech",
+            tag: "Stream 02 · Daily 08:00 KST",
+            title: "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+            desc: "Synthesizes AI/Semiconductors, Robotics, Space, Quantum, Autonomous & SMR breakthroughs with US/KR Top 10 tech creator insights."
+          },
+          {
+            key: "buffett-alpha",
+            tag: "Stream 03 · Daily 07:30 KST",
+            title: "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+            desc: "Quantitative S&P 500 scanner tracking high-ROIC economic moats, aggressive share cannibals, RPO backlog inflections, and Form 4 cluster buys."
+          }
+        ]
       }
     },
     kr: {
@@ -153,6 +194,7 @@
         experience: "주요 경력",
         education: "학력 및 병역",
         column: "데이터 분석 칼럼",
+        briefings: "데일리 브리핑",
         downloadCv: "이력서 PDF 다운로드"
       },
       hero: {
@@ -176,15 +218,16 @@
           label: "구글 검색(SA), 유튜브, pMax 신규 광고 솔루션 도입을 통한 퍼포먼스 마케팅 효율 50% 이상 개선"
         },
         {
-          value: "12개 리포트",
-          label: "최신 파이썬 퀀트 리서치(2026) 및 R 통계 시각화(76개 차트)로 작성한 'Data Story' 칼럼 아카이브"
+          value: "12편 + 데일리",
+          label: "파이썬 퀀트 리서치(2026), R 데이터 칼럼(11편) 및 매일 자동 발행되는 3대 데일리 인텔리전스 브리핑"
         }
       ],
       toolbar: {
         splitView: "통합 분할 뷰 (이력서 + 데이터 칼럼)",
+        briefingsOnly: "데일리 브리핑 허브 (3대 리포트)",
         resumeOnly: "이력서(Resume) 집중 뷰",
         projectsOnly: "데이터 분석 칼럼 전체보기",
-        status: "최신 이력서(2026.04 기준) 및 12개 데이터·퀀트 분석 아카이브 표시 중"
+        status: "최신 이력서(2026.04), 12편 데이터 칼럼 및 3대 데일리 자동화 브리핑 표시 중"
       },
       resumeHeaders: {
         index: "01",
@@ -292,6 +335,45 @@
         figsLabel: "개 차트",
         minRead: "분 분량",
         summaryTitle: "핵심 분석 요약 (Executive Summary)"
+      },
+      briefings: {
+        title: "데일리 인텔리전스 브리핑 (Daily Briefings)",
+        liveBadge: "매일 아침 자동 업데이트",
+        subtitle: "SEC 공시 · 13F 슈퍼인베스터 · 4대 미래기술 · S&P 500 버핏 알파 스캐너",
+        intro: "매일 아침 자동화 파이프라인을 통해 생성되는 3대 데일리 인텔리전스 리포트 아카이브입니다. 각 스트림별 최신 리포트와 과거 일자별 브리핑을 한눈에 열람하고 검색하실 수 있습니다.",
+        searchPlaceholder: "날짜(YYYY-MM-DD), 티커(NVDA, LEN, FICO 등), 또는 키워드로 브리핑 검색...",
+        readLatestBtn: "최신호 열람",
+        filterStreamBtn: "모아보기",
+        openBriefingBtn: "브리핑 전문 열기 →",
+        openStandaloneBtn: "↗ 새 창에서 전체화면으로 열기",
+        latestLabel: "최신 발행본",
+        editionsUnit: "편 수록",
+        streams: {
+          all: "전체 브리핑",
+          "market-report": "글로벌 테크 & 슈퍼인베스터 동향",
+          "frontier-tech": "빅테크 & 4대 미래기술 (유튜버 10인)",
+          "buffett-alpha": "S&P 500 워런 버핏 알파 스캐너"
+        },
+        pillars: [
+          {
+            key: "market-report",
+            tag: "Stream 01 · 매일 08:00 KST",
+            title: "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+            desc: "미국 SEC EDGAR 실시간 공시(10-Q/8-K/Form 4 내부자 거래)와 13F 슈퍼인베스터 포트폴리오 리밸런싱을 교차 분석한 데일리 마켓 리포트."
+          },
+          {
+            key: "frontier-tech",
+            tag: "Stream 02 · 매일 08:00 KST",
+            title: "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+            desc: "AI·반도체, 로보틱스, 우주항공, 양자컴퓨팅, 자율주행·SMR 핵심 동향과 한·미 Top 10 테크 크리에이터 인사이트를 결합한 데일리 브리핑."
+          },
+          {
+            key: "buffett-alpha",
+            tag: "Stream 03 · 매일 07:30 KST",
+            title: "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+            desc: "S&P 500 전 종목 대상 고ROIC 경제적 해자, 공격적 자사주 소각(Cannibals), RPO 수주잔고 폭발 및 내부자 집단 매수를 포착하는 퀀트 스캐너."
+          }
+        ]
       }
     }
   };
@@ -299,10 +381,14 @@
   let currentLang = "en";
   let currentCategory = "all";
   let currentSearch = "";
-  let currentViewMode = "split"; // 'split' | 'resume' | 'projects'
+  let currentBriefingStream = "all";
+  let currentBriefingSearch = "";
+  let currentViewMode = "split"; // 'split' | 'briefings' | 'resume' | 'projects'
   let activeArticleId = null;
+  let activeBriefingId = null;
 
   const articles = window.PORTFOLIO_ARTICLES || [];
+  const briefings = window.DAILY_BRIEFINGS || [];
 
   function init() {
     renderAll();
@@ -317,8 +403,8 @@
     // Update Nav
     document.getElementById("nav-overview").textContent = copy.nav.overview;
     document.getElementById("nav-experience").textContent = copy.nav.experience;
-    document.getElementById("nav-education").textContent = copy.nav.education;
     document.getElementById("nav-column").textContent = copy.nav.column;
+    document.getElementById("nav-briefings").textContent = copy.nav.briefings;
     document.getElementById("btn-download-cv").textContent = copy.nav.downloadCv;
 
     // Update Lang Toggle Indicator
@@ -347,6 +433,7 @@
 
     // Update Toolbar
     document.getElementById("tab-split").textContent = copy.toolbar.splitView;
+    document.getElementById("tab-briefings").textContent = copy.toolbar.briefingsOnly;
     document.getElementById("tab-resume").textContent = copy.toolbar.resumeOnly;
     document.getElementById("tab-projects").textContent = copy.toolbar.projectsOnly;
     document.getElementById("toolbar-status").textContent = copy.toolbar.status;
@@ -462,9 +549,12 @@
       .join("");
 
     renderProjectsList();
+    renderBriefingsSection();
 
     if (activeArticleId) {
       openArticleDrawer(activeArticleId, false);
+    } else if (activeBriefingId) {
+      openBriefingDrawer(activeBriefingId, false);
     }
   }
 
@@ -525,11 +615,148 @@
       .join("");
   }
 
+  function renderBriefingsSection() {
+    const bCopy = RESUME_DATA[currentLang].briefings;
+    document.getElementById("briefings-sec-title").textContent = bCopy.title;
+    document.getElementById("briefings-live-badge").innerHTML = `<span class="pulse-dot"></span> ${bCopy.liveBadge} (${briefings.length})`;
+    document.getElementById("briefings-sec-sub").textContent = bCopy.subtitle;
+    document.getElementById("briefings-sec-intro").textContent = bCopy.intro;
+    document.getElementById("briefing-search-input").placeholder = bCopy.searchPlaceholder;
+
+    // Count per stream & latest per stream
+    const streamCounts = { all: briefings.length };
+    const latestByStream = {};
+    briefings.forEach((b) => {
+      streamCounts[b.stream] = (streamCounts[b.stream] || 0) + 1;
+      if (!latestByStream[b.stream]) {
+        latestByStream[b.stream] = b;
+      }
+    });
+
+    // Render 3 Stream Pillar Cards
+    const pillarsEl = document.getElementById("stream-pillars-container");
+    pillarsEl.innerHTML = bCopy.pillars
+      .map((p) => {
+        const latest = latestByStream[p.key];
+        const count = streamCounts[p.key] || 0;
+        return `
+        <article class="stream-pillar-card" data-stream="${p.key}">
+          <div>
+            <div class="pillar-top-meta">
+              <span class="pillar-stream-tag">${p.tag}</span>
+              <span class="pillar-count-badge">${count} ${bCopy.editionsUnit}</span>
+            </div>
+            <h3 class="pillar-title">${p.title}</h3>
+            <p class="pillar-desc">${p.desc}</p>
+          </div>
+          <div>
+            ${
+              latest
+                ? `
+              <div class="pillar-latest-box">
+                <div class="pillar-latest-label">
+                  <span>${bCopy.latestLabel}</span>
+                  <span>${latest.date}</span>
+                </div>
+                <div class="pillar-latest-headline">${latest.summary}</div>
+              </div>
+              <div class="pillar-actions">
+                <button type="button" class="btn-pillar-latest" data-open-briefing="${latest.id}">
+                  ${bCopy.readLatestBtn} (${latest.date}) →
+                </button>
+                <button type="button" class="btn-pillar-filter" data-filter-stream="${p.key}">
+                  ${bCopy.filterStreamBtn} (${count})
+                </button>
+              </div>
+            `
+                : ""
+            }
+          </div>
+        </article>
+      `;
+      })
+      .join("");
+
+    // Render Stream Filter Pills
+    const pillsEl = document.getElementById("briefing-stream-pills");
+    pillsEl.innerHTML = Object.entries(bCopy.streams)
+      .map(([key, label]) => {
+        const cnt = streamCounts[key] || 0;
+        return `
+        <button type="button" class="cat-pill ${currentBriefingStream === key ? "active" : ""}" data-bstream="${key}">
+          ${label} (${cnt})
+        </button>
+      `;
+      })
+      .join("");
+
+    renderBriefingsGrid();
+  }
+
+  function renderBriefingsGrid() {
+    const bCopy = RESUME_DATA[currentLang].briefings;
+    const gridEl = document.getElementById("briefings-grid-container");
+
+    const filtered = briefings.filter((b) => {
+      const matchStream = currentBriefingStream === "all" || b.stream === currentBriefingStream;
+      const q = currentBriefingSearch.trim().toLowerCase();
+      if (!q) return matchStream;
+      const hay = [
+        b.date,
+        b.title,
+        b.stream_full_kr,
+        b.stream_full_en,
+        b.summary,
+        ...(b.tags || [])
+      ]
+        .join(" ")
+        .toLowerCase();
+      return matchStream && hay.includes(q);
+    });
+
+    if (filtered.length === 0) {
+      gridEl.innerHTML = `<div style="grid-column: 1 / -1; padding: 2.5rem 1rem; text-align: center; color: var(--ink-tertiary); font-size: 0.9rem;">No matching daily briefings found.</div>`;
+      return;
+    }
+
+    gridEl.innerHTML = filtered
+      .map((b) => {
+        const streamLabel = b.stream_full_kr;
+        const tagsHtml = (b.tags || [])
+          .slice(0, 5)
+          .map((t) => `<span class="ticker-tag">${t}</span>`)
+          .join("");
+
+        return `
+        <button type="button" class="briefing-card" data-briefing-id="${b.id}">
+          <div>
+            <div class="briefing-card-top">
+              <span class="briefing-stream-pill" data-stream="${b.stream}">${b.stream_label_kr}</span>
+              <span class="briefing-date-mono">${b.date}</span>
+            </div>
+            <h3 class="briefing-card-title">${streamLabel}</h3>
+            <p class="briefing-card-summary">${b.summary}</p>
+          </div>
+          <div class="briefing-card-footer">
+            <div class="ticker-tags">${tagsHtml}</div>
+            <span class="read-trigger">${bCopy.openBriefingBtn}</span>
+          </div>
+        </button>
+      `;
+      })
+      .join("");
+  }
+
   function openArticleDrawer(articleId, updateHash = true) {
     const artIndex = articles.findIndex((a) => a.id === articleId);
     if (artIndex === -1) return;
     const art = articles[artIndex];
     activeArticleId = articleId;
+    activeBriefingId = null;
+
+    const drawer = document.getElementById("reader-drawer");
+    drawer.classList.remove("briefing-mode");
+    document.getElementById("btn-open-standalone").style.display = "none";
 
     const copy = RESUME_DATA[currentLang].column;
     const title = currentLang === "kr" ? art.clean_title_kr : art.clean_title_en;
@@ -561,7 +788,7 @@
     };
 
     document.getElementById("reader-backdrop").classList.add("open");
-    document.getElementById("reader-drawer").classList.add("open");
+    drawer.classList.add("open");
     document.getElementById("reader-scroll-container").scrollTop = 0;
     document.body.style.overflow = "hidden";
 
@@ -570,12 +797,64 @@
     }
   }
 
+  function openBriefingDrawer(briefingId, updateHash = true) {
+    const bIndex = briefings.findIndex((b) => b.id === briefingId);
+    if (bIndex === -1) return;
+    const b = briefings[bIndex];
+    activeBriefingId = briefingId;
+    activeArticleId = null;
+
+    const bCopy = RESUME_DATA[currentLang].briefings;
+    const drawer = document.getElementById("reader-drawer");
+    drawer.classList.add("briefing-mode");
+
+    const standaloneBtn = document.getElementById("btn-open-standalone");
+    standaloneBtn.style.display = "inline-flex";
+    standaloneBtn.href = b.html_path;
+    standaloneBtn.textContent = bCopy.openStandaloneBtn;
+
+    document.getElementById("reader-meta-date").textContent = `${b.date} · ${b.stream_full_kr}`;
+    document.getElementById("reader-body-content").innerHTML = `
+      <iframe
+        class="briefing-iframe"
+        src="${b.html_path}"
+        title="${b.stream_full_kr} (${b.date})"
+      ></iframe>
+    `;
+
+    // Prev / Next buttons across briefings
+    const prevBtn = document.getElementById("btn-prev-article");
+    const nextBtn = document.getElementById("btn-next-article");
+    prevBtn.disabled = bIndex <= 0;
+    prevBtn.style.opacity = bIndex <= 0 ? "0.35" : "1";
+    prevBtn.onclick = () => {
+      if (bIndex > 0) openBriefingDrawer(briefings[bIndex - 1].id);
+    };
+
+    nextBtn.disabled = bIndex >= briefings.length - 1;
+    nextBtn.style.opacity = bIndex >= briefings.length - 1 ? "0.35" : "1";
+    nextBtn.onclick = () => {
+      if (bIndex < briefings.length - 1) openBriefingDrawer(briefings[bIndex + 1].id);
+    };
+
+    document.getElementById("reader-backdrop").classList.add("open");
+    drawer.classList.add("open");
+    document.body.style.overflow = "hidden";
+
+    if (updateHash) {
+      history.replaceState(null, "", `#briefing/${briefingId}`);
+    }
+  }
+
   function closeArticleDrawer() {
     activeArticleId = null;
+    activeBriefingId = null;
+    const drawer = document.getElementById("reader-drawer");
     document.getElementById("reader-backdrop").classList.remove("open");
-    document.getElementById("reader-drawer").classList.remove("open");
+    drawer.classList.remove("open", "briefing-mode");
+    document.getElementById("reader-body-content").innerHTML = "";
     document.body.style.overflow = "";
-    if (window.location.hash.startsWith("#post/")) {
+    if (window.location.hash.startsWith("#post/") || window.location.hash.startsWith("#briefing/")) {
       history.replaceState(null, "", window.location.pathname);
     }
   }
@@ -585,14 +864,26 @@
     if (h.startsWith("#post/")) {
       const slug = h.replace("#post/", "").trim();
       openArticleDrawer(slug, false);
+    } else if (h.startsWith("#briefing/")) {
+      const bId = h.replace("#briefing/", "").trim();
+      openBriefingDrawer(bId, false);
     }
   }
 
   function setViewMode(mode) {
     currentViewMode = mode;
     const ws = document.getElementById("editorial-workspace");
-    ws.classList.remove("mode-split", "mode-resume", "mode-projects");
+    const bSec = document.getElementById("daily-briefings-section");
+
+    ws.classList.remove("mode-split", "mode-briefings", "mode-resume", "mode-projects");
     ws.classList.add(`mode-${mode}`);
+
+    bSec.classList.remove("only-briefings-mode", "hidden-in-mode");
+    if (mode === "briefings") {
+      bSec.classList.add("only-briefings-mode");
+    } else if (mode === "resume" || mode === "projects") {
+      bSec.classList.add("hidden-in-mode");
+    }
 
     document.querySelectorAll(".view-tab").forEach((btn) => {
       btn.classList.toggle("active", btn.dataset.mode === mode);
@@ -620,18 +911,18 @@
       });
     });
 
-    // Category pills delegation
+    // Category pills delegation (Data Story Column)
     document.getElementById("category-pills-container").addEventListener("click", (e) => {
       const pill = e.target.closest(".cat-pill");
       if (!pill) return;
       currentCategory = pill.dataset.cat;
-      document.querySelectorAll(".cat-pill").forEach((p) => {
+      document.querySelectorAll("#category-pills-container .cat-pill").forEach((p) => {
         p.classList.toggle("active", p.dataset.cat === currentCategory);
       });
       renderProjectsList();
     });
 
-    // Search input
+    // Search input (Data Story Column)
     document.getElementById("project-search-input").addEventListener("input", (e) => {
       currentSearch = e.target.value;
       renderProjectsList();
@@ -644,11 +935,50 @@
       openArticleDrawer(card.dataset.articleId);
     });
 
+    // Stream Pillar Card actions (Open Latest / Filter Stream)
+    document.getElementById("stream-pillars-container").addEventListener("click", (e) => {
+      const openBtn = e.target.closest("[data-open-briefing]");
+      if (openBtn) {
+        openBriefingDrawer(openBtn.dataset.openBriefing);
+        return;
+      }
+      const filterBtn = e.target.closest("[data-filter-stream]");
+      if (filterBtn) {
+        currentBriefingStream = filterBtn.dataset.filterStream;
+        renderBriefingsSection();
+        document.getElementById("briefing-stream-pills").scrollIntoView({ behavior: "smooth", block: "nearest" });
+      }
+    });
+
+    // Briefing Stream Filter Pills delegation
+    document.getElementById("briefing-stream-pills").addEventListener("click", (e) => {
+      const pill = e.target.closest(".cat-pill");
+      if (!pill) return;
+      currentBriefingStream = pill.dataset.bstream;
+      document.querySelectorAll("#briefing-stream-pills .cat-pill").forEach((p) => {
+        p.classList.toggle("active", p.dataset.bstream === currentBriefingStream);
+      });
+      renderBriefingsGrid();
+    });
+
+    // Briefing Search input
+    document.getElementById("briefing-search-input").addEventListener("input", (e) => {
+      currentBriefingSearch = e.target.value;
+      renderBriefingsGrid();
+    });
+
+    // Briefing Card click delegation
+    document.getElementById("briefings-grid-container").addEventListener("click", (e) => {
+      const card = e.target.closest(".briefing-card");
+      if (!card) return;
+      openBriefingDrawer(card.dataset.briefingId);
+    });
+
     // Reader close events
     document.getElementById("btn-close-reader").addEventListener("click", closeArticleDrawer);
     document.getElementById("reader-backdrop").addEventListener("click", closeArticleDrawer);
     window.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && activeArticleId) {
+      if (e.key === "Escape" && (activeArticleId || activeBriefingId)) {
         closeArticleDrawer();
       }
     });
