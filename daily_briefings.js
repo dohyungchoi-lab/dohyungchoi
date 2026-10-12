@@ -1,5 +1,23 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "frontier-tech-2026-10-12",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-10-12",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "[AI·반도체] AMD 'Advancing AI' MI325X(HBM3E 288GB) & 192코어 EPYC Turin 공식 출격 vs TSMC 2나노 N2 GAA 고객 예약 폭주 & 엔비디아 Blackwell 공급망 독점: AMD 리사 수 CEO가 엔비디아 블랙웰을 정조준한 MI325X 가속기와 Zen 5 기반 5세대 EPYC 'Turin'을 공개하며 데이터센터 추론 가성비 경쟁을 촉발. TSMC는 3분기 잠정 매출이 전년비 39% 폭증(NT$7,597억)하며 2025~2026년 2나노 캐파 선...",
+    "tags": [
+      "TSM",
+      "NVDA",
+      "TSLA",
+      "IONQ"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-10-12.html"
+  },
+  {
     "id": "buffett-alpha-2026-10-11",
     "stream": "buffett-alpha",
     "stream_label_kr": "S&P 500 버핏 알파 스캐너",
