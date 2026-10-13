@@ -20,6 +20,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-10-13.html"
   },
   {
+    "id": "buffett-alpha-2026-10-13",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-10-13",
+    "title": "워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트",
+    "summary": "[슈퍼인베스터 장내 대량 매집] 버크셔 해서웨이, 레나(LEN) $5.95억(약 8,000억 원) 장내 직접 매수 지속: 워런 버핏의 버크셔 해서웨이가 52주 고점 대비 -44.2% 폭락 한 미국 1위 주택건설사 레나(LEN) 지분을 최근 한 달간 Form 4 Code P를 통해 $595,294,961 어치 집중 장내 매수 하여 10% 이상 대주주 지위를 확보했습니다. 레나는 모기지 금리 7% 쇼크 속에서도 주주환원을 극대화하며 1년간 유통주식수를 -7.50% 소각 (Cannibal)해 버핏의 '...",
+    "tags": [
+      "LEN",
+      "FICO",
+      "IT",
+      "MU",
+      "AVGO",
+      "BKNG"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-10-13.html"
+  },
+  {
     "id": "frontier-tech-2026-10-12",
     "stream": "frontier-tech",
     "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
