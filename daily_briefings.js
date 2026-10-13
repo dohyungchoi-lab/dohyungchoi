@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-10-13",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-10-13",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "미국 SEC EDGAR 공시(10-Q/8-K/Form 4) 및 13F 스마트머니 포트폴리오 교차 심층 분석 빅테크 3분기 어닝시즌 D-Day 카운트다운 & 가치주 섹터 로테이션 : S&P 500 7,800선 안착 속 채권시장 휴장(콜럼버스 데이)을 틈타 다우 지수가 51,850선을 돌파한 반면, 나스닥은 공급망 부품 조정(애플 아이폰 부품 발주 보수화 보도) 및 고평가 반도체 멀티플 피로감으로 -0.44% 숨고르기 장세 연출. Alphabet의 AI 데이터센터 전력망 선점 vs 미 법무부(DOJ)...",
+    "tags": [
+      "MSFT",
+      "GOOGL",
+      "PLTR",
+      "AAPL",
+      "NVDA",
+      "META"
+    ],
+    "html_path": "assets/briefings/market-report/2026-10-13.html"
+  },
+  {
     "id": "frontier-tech-2026-10-12",
     "stream": "frontier-tech",
     "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
