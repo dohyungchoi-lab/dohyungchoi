@@ -1,5 +1,24 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "frontier-tech-2026-10-15",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-10-15",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "[반도체·리소그래피] ASML Q3 어닝 서프라이즈(매출 €11.7B, YoY +55%) & 2030년 장비 주문 쇄도 vs TSMC Q3 실적 직전 사상 최고가 & High NA EUV 12인치 포토마스크 동맹: ASML이 분기 순이익 €5.0B와 연간 가이던스 상향(€44~45B)을 발표. 고객사들이 2029~2030년 장비까지 선주문하는 가운데, TSMC와 12인치 차세대 High NA EUV 포토마스크 규격을 공동 개발하며 2나노·1.4나노 생산성 3배 도약을 공식화. [AI 메모리·SED...",
+    "tags": [
+      "TSM",
+      "NVDA",
+      "TSLA",
+      "GOOGL",
+      "IONQ"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-10-15.html"
+  },
+  {
     "id": "market-report-2026-10-13",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
