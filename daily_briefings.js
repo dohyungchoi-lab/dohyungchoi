@@ -20,6 +20,46 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-10-16.html"
   },
   {
+    "id": "frontier-tech-2026-10-16",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-10-16",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "[반도체·파운드리] TSMC Q3 2026 어닝 서프라이즈(매출 $46.72B YoY +41%, 순이익 NT$763B YoY +69%) & 연간 가이던스 44%로 상향 vs 2나노(N2) 매출 비중 8% 급등 & HPC 68% 돌파: TSMC가 발표한 Q3 실적 에서 매출 $46.72B, 순이익 NT$763.06B로 6개 분기 연속 사상 최대 이익을 달성. 특히 2나노(N2) 비중이 8%로 수직 상승하고 HPC 비중이 68%에 달해 AI 가속기 병목이 파운드리 캐파 확장에 힘입어 폭발적 실적 성장...",
+    "tags": [
+      "TSM",
+      "NVDA",
+      "TSLA",
+      "GOOGL",
+      "MSFT",
+      "AAPL"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-10-16.html"
+  },
+  {
+    "id": "buffett-alpha-2026-10-16",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-10-16",
+    "title": "워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트",
+    "summary": "[슈퍼인베스터 장내 대량 매집 & 재무요새화] 버크셔 해서웨이, 레나(LEN) $5.95억 집중 장내 매수 + 10-15 $6억 선순위 채권 발행 완판: 워런 버핏의 버크셔 해서웨이가 52주 고점 대비 -41.92% 폭락 ($77.69)한 미국 1위 주택건설사 레나(LEN) 지분을 Form 4 Code P를 통해 $595,294,961 어치 집중 장내 매수 (10% 이상 대주주 등극)했습니다. 레나는 1년간 유통주식수를 -7.50% 소각 (Cannibal)했을 뿐만 아니라, 어제(10월 15일) ...",
+    "tags": [
+      "LEN",
+      "FICO",
+      "MU",
+      "AVGO",
+      "IT",
+      "BKNG"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-10-16.html"
+  },
+  {
     "id": "frontier-tech-2026-10-15",
     "stream": "frontier-tech",
     "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
