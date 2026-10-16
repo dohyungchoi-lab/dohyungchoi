@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-10-16",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-10-16",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "미국 SEC EDGAR 공시(10-Q/8-K/Form 4/Form 144) 및 13F 스마트머니 포트폴리오 교차 심층 분석 국채 금리 5.08%로 급락 & 다우 550pt 폭등 (가치주·금융 랠리 vs 테크 숨고르기) : 10년물 국채 금리가 하루 만에 약 10bp 급락하며 5.086%로 내려앉아 긴축 공포를 완화시켰으며, 다우 지수가 +1.08%(+556.82pt) 급등한 반면 나스닥은 기술주 차익실현 속 보합(+0.08%)으로 손바뀜이 활발히 전개. Apple 역사상 최초 '시총 5조 달러($...",
+    "tags": [
+      "MSFT",
+      "GOOGL",
+      "PLTR",
+      "AAPL",
+      "NVDA",
+      "META"
+    ],
+    "html_path": "assets/briefings/market-report/2026-10-16.html"
+  },
+  {
     "id": "frontier-tech-2026-10-15",
     "stream": "frontier-tech",
     "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
