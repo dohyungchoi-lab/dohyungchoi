@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-10-17",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-10-17",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "미국 SEC EDGAR 공시(10-Q/8-K/Form 4/Form 144) 및 13F 스마트머니 포트폴리오 교차 심층 분석 AI 부채 리스크(AI Debt Reckoning)와 기술주 급락 (나스닥 -2.14% 급락 & 6월 이래 최악의 주간 성적) : 코어위브(CoreWeave) 등 AI 인프라·네오클라우드 기업들의 공격적인 채권 발행과 막대한 부채 조달에 대한 월가의 신용 경계감이 확산되며, 10년물 국채 금리(5.10%)와 유가 100달러 돌파와 맞물려 엔비디아·마이크론 등 반도체 및 하드웨...",
+    "tags": [
+      "GOOGL",
+      "AAPL",
+      "PLTR",
+      "MSFT",
+      "NVDA",
+      "META"
+    ],
+    "html_path": "assets/briefings/market-report/2026-10-17.html"
+  },
+  {
     "id": "market-report-2026-10-16",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
