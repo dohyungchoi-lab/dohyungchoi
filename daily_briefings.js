@@ -20,6 +20,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-10-17.html"
   },
   {
+    "id": "buffett-alpha-2026-10-17",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-10-17",
+    "title": "워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트",
+    "summary": "[필수소비재 독점 해자 & 최신 내부자 대규모 장내 매집] 펩시코(PEP), 이사회 이사 $2,369만(약 320억 원) 직접 장내 매수 + 52주 -23.3% 저평가 조정: 펩시코(PEP)의 30년 재직 이사회 이사이자 대주주 가문인 로버트 C. 폴라드(Robert C. Pohlad) 이사가 어제(10월 16일) 공시된 Form 4를 통해 184,646주를 주당 $128.28에 총 $23,686,389(약 320억 원) 어치 전격 장내 직접 매수 했습니다. 펩시코는 3분기 실적 발표(8-K) 직...",
+    "tags": [
+      "LEN",
+      "FICO",
+      "AVGO",
+      "MU",
+      "BKNG",
+      "IT"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-10-17.html"
+  },
+  {
     "id": "market-report-2026-10-16",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
