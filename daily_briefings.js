@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "frontier-tech-2026-10-18",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-10-18",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "[반도체·AI 칩 & 2나노 양산] Apple A20 2nm TSMC 실물 검증 & WMCM 차세대 패키징 안착 vs 엔비디아 Vera Rubin 1,800W~2,300W 초밀도 다이렉트 액체냉각(D2C) 랙 규격 공개: TSMC의 2나노(N2) 공정이 조기 램프업에 성공하며 분기 매출 비중 8%를 돌파한 가운데, 최초의 2나노 상용 칩인 Apple A20 의 웨이퍼 레벨 멀티칩 모듈(WMCM) 실측 데이터가 공개되어 온디바이스 AI 레이턴시가 45% 단축됨이 확인됨. 한편 Nvidia 는 후속작...",
+    "tags": [
+      "TSM",
+      "AAPL",
+      "NVDA",
+      "TSLA",
+      "GOOGL",
+      "MSFT"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-10-18.html"
+  },
+  {
     "id": "market-report-2026-10-17",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
