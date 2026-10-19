@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-10-19",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-10-19",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "미국 SEC EDGAR 공시(10-Q/8-K/Form 4/Form 144) 및 13F 스마트머니 포트폴리오 교차 심층 분석 AI 인프라 부채 리스크(AI Debt Reckoning)와 기술주 차익 실현 (나스닥 -2.14% 급락 & VIX 20선 돌파) : 코어위브(CoreWeave) 등 AI 인프라·네오클라우드 기업들의 공격적인 채권 발행과 막대한 부채 조달에 대한 월가의 신용 경계감이 확산되며, 10년물 국채 금리(5.10%)와 유가 100달러 돌파와 맞물려 엔비디아·마이크론 등 반도체 및 고...",
+    "tags": [
+      "AAPL",
+      "GOOGL",
+      "PLTR",
+      "MSFT",
+      "NVDA",
+      "META"
+    ],
+    "html_path": "assets/briefings/market-report/2026-10-19.html"
+  },
+  {
     "id": "frontier-tech-2026-10-18",
     "stream": "frontier-tech",
     "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
@@ -18,6 +38,26 @@ window.DAILY_BRIEFINGS = [
       "MSFT"
     ],
     "html_path": "assets/briefings/frontier-tech/2026-10-18.html"
+  },
+  {
+    "id": "buffett-alpha-2026-10-18",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-10-18",
+    "title": "워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트",
+    "summary": "[내부자 장내 직접 매수 신규 포착 & 슈퍼인베스터 집중] 펩시코(PEP) 이사 $2,368만 장내 매수(10/16 Form 4) & 버크셔 해서웨이 레나(LEN) $5.95억 매집: 필수소비재 독점 강자 펩시코(PEP) 의 Robert C. Pohlad 이사가 주당 $128.28에 $23,686,389(+184,646주, 지분 +68% 급증) 의 대규모 지분을 장내 직접 매수(10월 16일 Form 4 공시)했습니다. Q3 10-Q 호실적(영업이익 +19% 증가)에도 52주 고점 대비 -23.3...",
+    "tags": [
+      "LEN",
+      "FICO",
+      "MU",
+      "AVGO",
+      "BKNG",
+      "IT"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-10-18.html"
   },
   {
     "id": "market-report-2026-10-17",
