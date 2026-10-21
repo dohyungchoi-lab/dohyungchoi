@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "frontier-tech-2026-10-21",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-10-21",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "[반도체·AI 칩 & 글로벌 파운드리 재편] TSMC Q3 매출 $46.7B(+51%)·순익 +69% '사상 최대 어닝 서프라이즈' & 삼성전자의 역사적 결단: 엔비디아 차세대 NVHBM 베이스다이 TSMC 3나노 파운드리 위탁 생산 전격 추진: TSMC 가 AI와 HPC 수요 폭증으로 분기 매출 NT$1.49T, 순이익 69% 성장의 신화를 쓰며 연간 성장률 가이던스를 44%로 상향함. 이와 맞물려 삼성전자 가 엔비디아 맞춤형 차세대 'NVHBM' 공급을 위해 자존심을 접고 베이스 다이를 TSM...",
+    "tags": [
+      "TSM",
+      "NVDA",
+      "AAPL",
+      "GOOGL",
+      "MSFT",
+      "AMZN"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-10-21.html"
+  },
+  {
     "id": "buffett-alpha-2026-10-21",
     "stream": "buffett-alpha",
     "stream_label_kr": "S&P 500 버핏 알파 스캐너",
