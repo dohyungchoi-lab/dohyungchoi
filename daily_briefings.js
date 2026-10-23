@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "buffett-alpha-2026-10-23",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-10-23",
+    "title": "워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트",
+    "summary": "[S&P 500 Buffett Alpha] 2026-10-23 퀀타멘털 알파 발굴 리포트 QUANTAMENTAL ALPHA RESEARCH • S&P 500 DAILY SCAN 워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트 기준일자: 2026-10-23 • 전수 스캔 유니버스: S&P 500 503개사 전수 (SEC EDGAR XBRL + Form 4) 알파 발굴 기준: ROIC ≥ 15% 52W Drawdown ≤ -15% 자사주 소각 ≤ -1.5%...",
+    "tags": [
+      "LEN",
+      "FIX",
+      "MU",
+      "FICO",
+      "BKNG",
+      "AVGO"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-10-23.html"
+  },
+  {
     "id": "frontier-tech-2026-10-22",
     "stream": "frontier-tech",
     "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
