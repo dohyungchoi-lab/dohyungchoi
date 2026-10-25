@@ -40,6 +40,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/frontier-tech/2026-10-25.html"
   },
   {
+    "id": "buffett-alpha-2026-10-25",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-10-25",
+    "title": "워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트",
+    "summary": "본 리포트는 미국 증권거래위원회(SEC) EDGAR XBRL 실시간 재무제표 및 OpenInsider Form 4 원천 공시 데이터를 기반으로 자동 생성되었습니다. © 2026 Quantamental Alpha Research. All rights reserved.",
+    "tags": [
+      "LEN",
+      "FIX",
+      "MU",
+      "FICO",
+      "BKNG",
+      "AVGO"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-10-25.html"
+  },
+  {
     "id": "frontier-tech-2026-10-24",
     "stream": "frontier-tech",
     "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
