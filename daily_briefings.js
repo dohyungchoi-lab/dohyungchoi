@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-10-25",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-10-25",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "미국 SEC EDGAR 공시(10-Q/8-K/Form 4/Form 144) 및 13F 스마트머니 포트폴리오 교차 심층 분석 메가캡 어닝 위크(Big Tech Mega-Cap Earnings Week) 개막을 앞둔 관망세와 지수 혼조 (S&P 500 -0.52%, 다우 -1.23% 급락 vs 나스닥 -0.21% 선방) : 10월 28일 알파벳(GOOGL)을 필두로 시작되는 메가캡 테크 기업들의 Q3 실적 발표를 앞두고, 시장은 AI 인프라 자본지출(CapEx)의 수익화 속도와 밸런스시트 건전성을 재...",
+    "tags": [
+      "GOOGL",
+      "AAPL",
+      "PLTR",
+      "MSFT",
+      "NVDA",
+      "META"
+    ],
+    "html_path": "assets/briefings/market-report/2026-10-25.html"
+  },
+  {
     "id": "frontier-tech-2026-10-24",
     "stream": "frontier-tech",
     "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
