@@ -20,6 +20,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-10-25.html"
   },
   {
+    "id": "frontier-tech-2026-10-25",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-10-25",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "[반도체·AI 메모리] SK하이닉스 Q3 영업익 77조원 육박 '역대급 슈퍼사이클' 목전 & TSMC N3P/4나노 베이스 다이 결합 HBM4 16단 양산 체제 가동 vs 삼성전자 TSMC 위탁 결단 안착: SK하이닉스 가 HBM3E 독점 지배력과 HBM4 조기 양산 수율을 바탕으로 10월 28일 발표 예정인 3분기 영업익 77조원, 영업이익률 ~78%라는 경이적 실적을 예고함. 이와 맞물려 삼성전자 의 차세대 NVHBM 베이스 다이 TSMC 3나노 위탁 결단이 안착하며 글로벌 AI 반도체 밸류체...",
+    "tags": [
+      "TSM",
+      "GOOGL",
+      "TSLA",
+      "NVDA",
+      "AAPL",
+      "MSFT"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-10-25.html"
+  },
+  {
     "id": "frontier-tech-2026-10-24",
     "stream": "frontier-tech",
     "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
