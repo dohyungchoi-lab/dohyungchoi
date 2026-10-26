@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "frontier-tech-2026-10-26",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-10-26",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "엔비디아 가 메모리 3사에 TSMC 3나노(N3P) 베이스 다이 채택을 표준 지침으로 전달. 삼성전자 가 이를 수용해 벤더 승인 확률을 높이고 자체 2나노는 백업으로 준비하며, 10월 28일 Q3 실적 발표를 앞둔 SK하이닉스 는 분기 영업이익 7조원 육박(OPM ~78%)을 예고하며 AI 메모리 슈퍼사이클을 입증함. Google Quantum AI 가 양자컴퓨터의 범용 계산에 필수적인 T-게이트 정제 과정에서 전체 칩 자원의 90~95%를 소모하던 '매직 스테이트 정제' 병목을 물리적 칩 상에서...",
+    "tags": [
+      "NVDA",
+      "TSM",
+      "GOOGL",
+      "TSLA",
+      "IONQ",
+      "AMZN"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-10-26.html"
+  },
+  {
     "id": "buffett-alpha-2026-10-26",
     "stream": "buffett-alpha",
     "stream_label_kr": "S&P 500 버핏 알파 스캐너",
