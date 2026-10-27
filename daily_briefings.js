@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "buffett-alpha-2026-10-27",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-10-27",
+    "title": "워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트",
+    "summary": "[어닝 서프라이즈 & 공격적 자사주 소각] 데커스 브랜드(DECK) 사상 최대 분기 매출 $14.8억 & 레나(LEN) 버크셔 해서웨이 $3.83억 집중 매집: 글로벌 프리미엄 신발 브랜드 데커스(DECK) 가 최신 8-K를 통해 분기 사상 최대 매출 $14.81억 , EPS $2.31(+27% YoY) 을 발표했습니다. 상반기 $6.37억 자사주 매입 으로 유통주식수를 -7.40% 소각 했고, ROIC 38.39% , FCF Yield 10.03% , 무차입 순현금 $12.1억 에도 52주 고점...",
+    "tags": [
+      "LEN",
+      "FIX",
+      "MU",
+      "FICO",
+      "BKNG",
+      "AVGO"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-10-27.html"
+  },
+  {
     "id": "frontier-tech-2026-10-26",
     "stream": "frontier-tech",
     "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
