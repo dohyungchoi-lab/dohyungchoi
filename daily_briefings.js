@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-10-29",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-10-29",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "미국 SEC EDGAR 공시(10-Q/8-K/Form 4/Form 144) 및 13F 스마트머니 포트폴리오 교차 심층 분석 알파벳(GOOGL) Q3 실적의 명암 (클라우드 +103% 폭발적 성장 vs 분기 CapEx $514억과 EPS 쇼크에 시간외 -8% 급락) : 알파벳은 3분기 매출 $1,276억(+25%), 구글 클라우드 매출 $307억(+103%, 영업이익 $111억)이라는 경이로운 실적을 발표했으나, 분기 CapEx가 $514억으로 폭증하고 비영업 평가손실이 겹치며 EPS($2.12)가...",
+    "tags": [
+      "GOOGL",
+      "AAPL",
+      "PLTR",
+      "MSFT",
+      "NVDA",
+      "META"
+    ],
+    "html_path": "assets/briefings/market-report/2026-10-29.html"
+  },
+  {
     "id": "buffett-alpha-2026-10-28",
     "stream": "buffett-alpha",
     "stream_label_kr": "S&P 500 버핏 알파 스캐너",
