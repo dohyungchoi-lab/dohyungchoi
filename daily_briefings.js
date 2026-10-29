@@ -20,6 +20,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-10-29.html"
   },
   {
+    "id": "buffett-alpha-2026-10-29",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-10-29",
+    "title": "워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트",
+    "summary": "[내부자 장내 직접 매수 긴급 포착] 액센츄어(ACN) CEO 줄리 스위트 $300만 장내 매수 & 펩시코(PEP) 이사 $2,368만 초대형 매집: 글로벌 IT 컨설팅 1위 기업 액센츄어(ACN) 의 Julie Sweet 회장 겸 CEO가 10월 26일 보통주 12,200주를 주당 $245.99에 사재 $3,001,041 (약 42억 원, 지분 +33% 급증) 를 투입해 장내 직접 매수( Form 4 원문 )했습니다. 이사 Paula Price 역시 $20만을 동반 매수(총 $3.2M)했습니다....",
+    "tags": [
+      "IT",
+      "FICO",
+      "VRT",
+      "BKNG",
+      "MU",
+      "AVGO"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-10-29.html"
+  },
+  {
     "id": "buffett-alpha-2026-10-28",
     "stream": "buffett-alpha",
     "stream_label_kr": "S&P 500 버핏 알파 스캐너",
