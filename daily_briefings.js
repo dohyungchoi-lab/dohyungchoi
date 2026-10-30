@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "frontier-tech-2026-10-30",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-10-30",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "삼성전자 가 전 세계 기업 역사상 최초로 분기 영업이익 107.4조원(DS 부문 106.5조원) 을 기록하며 HBM4 분기 매출($8.7B)로 SK하이닉스 (영업익 83.3조원, OPM 80%)를 일시 역전함. 한편 Alphabet (Capex $51.4B, FCF -$9.1B 적자) 등 빅테크의 천문학적 AI 투자 속에서 TSMC 가 첨단 CoWoS 패키징 가격을 최대 20% 인상 추진하며 8개월 공급 리드타임을 기록함. Google Quantum AI 가 양자컴퓨터의 범용 계산에 필수적인 T-...",
+    "tags": [
+      "NVDA",
+      "GOOGL",
+      "MSFT",
+      "META",
+      "TSLA",
+      "AMZN"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-10-30.html"
+  },
+  {
     "id": "market-report-2026-10-29",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
