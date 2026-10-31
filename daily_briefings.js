@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "buffett-alpha-2026-10-31",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-10-31",
+    "title": "워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트",
+    "summary": "[경영진·슈퍼인베스터 장내 직접 매수(Form 4 Code P) 집중 포착] 액센츄어(ACN) CEO 줄리 스위트 $300만 장내 매수 & 버크셔 레나(LEN) $1.92억 매집 & 펩시코(PEP) 이사 $2,368만 매수: 글로벌 IT 컨설팅 1위 기업 액센츄어(ACN, ROIC 20.3%, FCF Yield 7.6%) 의 줄리 스위트(Julie Spellman Sweet) 회장 겸 CEO가 10월 26일 주당 $245~$246에 $3,001,041(12,200주) 규모의 자사주를 장내 직접 매...",
+    "tags": [
+      "LEN",
+      "IT",
+      "FICO",
+      "MU",
+      "AVGO",
+      "BKNG"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-10-31.html"
+  },
+  {
     "id": "frontier-tech-2026-10-30",
     "stream": "frontier-tech",
     "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
