@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-01",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-01",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "미국 SEC EDGAR 공시(10-Q/8-K/Form 4/Form 144) 및 13F 스마트머니 포트폴리오 교차 심층 분석 빅테크 2027 CapEx 공포와 10월 증시 급락 마감 (알파벳 $300 지지선 테스트 vs 11/2 애플·팔란티어 슈퍼먼데이 대기) : 알파벳이 사상 최대 Q3 CapEx($514억)와 사상 첫 음수 FCF(-$91억), 2027년 설비투자 대폭 확대 경고를 발표한 후 주가가 8% 이상 급락하며 $300 지지선을 테스트했습니다. 이에 10월 마지막 거래일 나스닥은 -2.8...",
+    "tags": [
+      "AAPL",
+      "PLTR",
+      "MSFT",
+      "GOOGL",
+      "NVDA",
+      "META"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-01.html"
+  },
+  {
     "id": "buffett-alpha-2026-10-31",
     "stream": "buffett-alpha",
     "stream_label_kr": "S&P 500 버핏 알파 스캐너",
