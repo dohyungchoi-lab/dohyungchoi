@@ -1,5 +1,45 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "frontier-tech-2026-11-03",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-11-03",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "애플 이 사상 최대 분기 매출 $114.5B(+12% YoY) , 순이익 $30.71B(EPS $2.10)과 분기 영업현금흐름 $28B 를 기록하며 존 터너스 신임 CEO 체제를 화려하게 개막함. 한편 아마존 은 AWS 매출이 39.3% 폭증한 $46.0B($184B 런레이트, 수주잔고 $578B)를 기록했으나 2026 연간 Capex $2,200억 달러 가이던스로 FCF 적자 우려가 교차함. 여기에 엔비디아·빅테크의 주문 폭주로 TSMC 가 CoWoS 첨단 패키징 단가를 10~20% 인상 검토하...",
+    "tags": [
+      "AAPL",
+      "AMZN",
+      "NVDA",
+      "GOOGL",
+      "MSFT",
+      "META"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-11-03.html"
+  },
+  {
+    "id": "buffett-alpha-2026-11-03",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-03",
+    "title": "워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트",
+    "summary": "[내부자 장내 직접 매수(Form 4 Code P) 초대형 포착] 롤린스(ROL) 창업가문 트러스트 $1억(약 1,380억 원) 장내 매집 & 액센츄어(ACN) CEO $300만 매수 & 버크셔 레나(LEN) $1.92억 매수: 글로벌 1위 방제 기업 롤린스(ROL, Orkin 모회사, ROIC 23.65%) 에서 11월 2일(어제) 지배주주인 R. Randall Rollins Voting Trust와 Lor Inc가 52주 고점 대비 -45.52% 폭락 ($36.03)한 주식을 주당 $34.59...",
+    "tags": [
+      "LEN",
+      "FICO",
+      "MU",
+      "AVGO",
+      "IT",
+      "BKNG"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-03.html"
+  },
+  {
     "id": "buffett-alpha-2026-11-02",
     "stream": "buffett-alpha",
     "stream_label_kr": "S&P 500 버핏 알파 스캐너",
