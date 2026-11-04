@@ -20,6 +20,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-11-04.html"
   },
   {
+    "id": "buffett-alpha-2026-11-04",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-04",
+    "title": "워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트",
+    "summary": "[내부자 장내 직접 매수(Form 4 Code P) 초대형 연속 포착] MGM 리조트(MGM) 행동주의 거물 $5,174만 장내 매집 & 보잉(BA) 이사회 의장·전 뱅가드 CEO $150만 동시 매수 & 캐터필러(CAT) 이사 $62만 매수: 2026년 11월 3일(어제) 공시된 Form 4에 따르면 코벡스 매니지먼트(Corvex) 창업자이자 사외이사인 키스 마이스터가 MGM 리조트(MGM) 주식 1,745,592주, $51,740,827 (약 715억 원) 을 장내 직접 매수(Code P)했습...",
+    "tags": [
+      "CAT",
+      "LEN",
+      "FICO",
+      "MU",
+      "AVGO",
+      "BKNG"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-04.html"
+  },
+  {
     "id": "frontier-tech-2026-11-03",
     "stream": "frontier-tech",
     "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
