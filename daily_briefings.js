@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-04",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-04",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "미국 SEC EDGAR 공시(10-Q/8-K/Form 4/Form 144) 및 13F 스마트머니 포트폴리오 교차 심층 분석 팔란티어·애플 슈퍼먼데이 실적 발표와 나스닥 3일 만의 반등 (AIP 매출 폭발 vs 아이폰 사상 최대 & 메모리 원가 부담) : 11월 2일 장 마감 후 공개된 메가 실적에서 팔란티어(PLTR)는 Q3 매출 $23.13억(+96% YoY), EPS $0.44로 사상 첫 분기 매출 $20억 돌파와 함께 미국 상업 부문(US Commercial, $9.84억, +148% YoY...",
+    "tags": [
+      "PLTR",
+      "AAPL",
+      "MSFT",
+      "UBER",
+      "GOOGL",
+      "NVDA"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-04.html"
+  },
+  {
     "id": "frontier-tech-2026-11-03",
     "stream": "frontier-tech",
     "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
