@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "buffett-alpha-2026-11-05",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-05",
+    "title": "워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트",
+    "summary": "[내부자 장내 직접 매수(Form 4 Code P) 신규 폭발] 인텔(INTC) CEO 립부 탄 $971만 전격 매집 & 액센츄어(ACN) CEO 줄리 스위트 $300만 매수: 2026년 11월 4일 공시된 Form 4에 따르면 반도체 EDA 및 글로벌 벤처 전설인 인텔(INTC, 52W 낙폭 -59.07%) CEO 립부 탄(Lip-Bu Tan)이 11월 2일 150,000주를 주당 $64.73에 총 $9,709,680 (약 134억 원) 규모로 장내 직접 매수(Code P)했습니다. 10월 30...",
+    "tags": [
+      "FICO",
+      "MU",
+      "AVGO",
+      "IT",
+      "BKNG",
+      "PLTR"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-05.html"
+  },
+  {
     "id": "market-report-2026-11-04",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
