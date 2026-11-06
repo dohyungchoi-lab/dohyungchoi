@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "buffett-alpha-2026-11-06",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-06",
+    "title": "워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트",
+    "summary": "[신규 10-Q & 8-K 실적 호조 속 자사주 소각(Cannibal)] 익스피디아(EXPE, 주식수 -7.72% 소각·FCF Yield 13.6%) & 페어아이작(FICO, Q4 EPS +43% & 반독점 소송 충당으로 사법 불확실성 해소): 익스피디아(EXPE, 52W 낙폭 -20.33%) 는 11월 5일 공시된 Q3 10-Q 및 8-K에서 총 매출 $4.94B(+12% YoY), B2B 예약액 +19%($11.1B), 조정 EBITDA $1.69B(+17%, 마진 34.2%), 조정 EPS ...",
+    "tags": [
+      "FICO",
+      "CAT",
+      "FIX",
+      "MU",
+      "BKNG",
+      "IT"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-06.html"
+  },
+  {
     "id": "buffett-alpha-2026-11-05",
     "stream": "buffett-alpha",
     "stream_label_kr": "S&P 500 버핏 알파 스캐너",
