@@ -1,5 +1,45 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-09",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-09",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "미국 SEC EDGAR 공시(10-Q/8-K/Form 4) 및 13F 스마트머니 포트폴리오 교차 심층 분석 버크셔 해서웨이 3분기 공식 10-Q 전격 공개 ($3,774억 역대 최대 현금 요새와 애플·알파벳 Top 5 확정) : 11월 7일(토) 공개된 버크셔 해서웨이 Form 10-Q에서 워런 버핏과 그렉 아벨 CEO의 현금 및 단기 국채(T-bill) 보유액이 $3,774억 (약 510조 원)으로 사상 최고치를 경신했습니다. 총 주식 포트폴리오($3,355억)의 65%가 애플(AAPL), 아메...",
+    "tags": [
+      "AAPL",
+      "GOOGL",
+      "MSFT",
+      "PLTR",
+      "NVDA",
+      "META"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-09.html"
+  },
+  {
+    "id": "buffett-alpha-2026-11-09",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-09",
+    "title": "워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트",
+    "summary": "[버핏형 해자 + 가격 조정 + 자사주 소각(Cannibal)] 도미노피자(DPZ, ROIC 146%·주식수 -3.15% 소각) & 페어아이작(FICO, 52W 낙폭 -62%·주식수 -7.62% 소각): 도미노피자(DPZ, 현재가 $334.28, 52W 낙폭 -24.43%) 는 99% 가맹점 기반 Asset-Light 구조로 ROIC 146.33% , FCF Yield 5.78% , P/E 18.41배 를 기록 중이며 연간 유통주식수를 -3.15% 소각 하고 있습니다. 우버이츠·도어대시 애그리게이...",
+    "tags": [
+      "FICO",
+      "FIX",
+      "AVGO",
+      "PLTR",
+      "BKNG",
+      "IT"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-09.html"
+  },
+  {
     "id": "buffett-alpha-2026-11-08",
     "stream": "buffett-alpha",
     "stream_label_kr": "S&P 500 버핏 알파 스캐너",
