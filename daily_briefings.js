@@ -20,6 +20,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-11-09.html"
   },
   {
+    "id": "frontier-tech-2026-11-09",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-11-09",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "엔비디아 가 블랙웰 울트라(B300, 288GB HBM3E)에 이어 2027년 플래그십 '루빈'에 TSMC 3나노 및 네이티브 HBM4(2048-bit 대역폭) 채택을 확정함. SK하이닉스 는 TSMC 베이스 다이 연합과 Advanced MR-MUF 패키징으로 12단/16단 HBM4 양산 주도권을 굳히고 있으며, 삼성전자 는 메모리+2나노 파운드리+패키징 원스톱 턴키 역량으로 안정적 수율의 8단(8Hi) 및 12단(12Hi) 듀얼 트랙 승부수를 던짐. 어드반테스트 (HBM4 테스터 독점)와 도쿄일...",
+    "tags": [
+      "AAPL",
+      "GOOGL",
+      "AMZN",
+      "META",
+      "TSLA",
+      "MSFT"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-11-09.html"
+  },
+  {
     "id": "buffett-alpha-2026-11-09",
     "stream": "buffett-alpha",
     "stream_label_kr": "S&P 500 버핏 알파 스캐너",
