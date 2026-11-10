@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "buffett-alpha-2026-11-10",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-10",
+    "title": "워런 버핏형 해자·자사주 소각·수주 폭발 인플렉션 리포트",
+    "summary": "[버핏형 해자 + 가격 조정 + 자사주 소각(Cannibal)] 도미노피자(DPZ, ROIC 146%·주식수 -3.15% 소각) & 페어아이작(FICO, 52W 낙폭 -61%·주식수 -7.62% 소각): 도미노피자(DPZ, 현재가 $334.18, 52W 낙폭 -24.45%) 는 99% 가맹점 기반 Asset-Light 구조로 ROIC 146.33% , FCF Yield 5.78% , P/E 18.41배 를 기록 중이며 연간 유통주식수를 -3.15% 소각 하고 있습니다. 우버이츠·도어대시 애그리게이...",
+    "tags": [
+      "FICO",
+      "FIX",
+      "AVGO",
+      "MU",
+      "PLTR",
+      "IT"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-10.html"
+  },
+  {
     "id": "market-report-2026-11-09",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
