@@ -20,6 +20,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-11-11.html"
   },
   {
+    "id": "buffett-alpha-2026-11-11",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-11",
+    "title": "S&P 500 퀀타멘털 알파 발굴 리포트",
+    "summary": "[버핏 해자 & 자사주 소각] 가트너(IT, -13.9% 소각) & 페어아이작(FICO, -60.7% 낙폭, ROIC 83.5%): 본업의 독점적 현금흐름을 바탕으로 두 자릿수 FCF Yield를 창출하며 유통주식을 공격적으로 소각 중인 전형적인 '주식 자가포식(Cannibal)' 종목군이 고점 대비 과도한 밸류에이션 조정을 거치며 버핏형 안전마진 구간에 진입했습니다. [RPO 수주잔고 폭발 & AI 인프라] 컴포트 시스템즈(FIX, 수주잔고 +90.0% 폭증) & 브로드컴(AVGO, RPO +5...",
+    "tags": [
+      "IT",
+      "FICO",
+      "FIX",
+      "AVGO",
+      "BKNG",
+      "MU"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-11.html"
+  },
+  {
     "id": "buffett-alpha-2026-11-10",
     "stream": "buffett-alpha",
     "stream_label_kr": "S&P 500 버핏 알파 스캐너",
