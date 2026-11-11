@@ -20,6 +20,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-11-11.html"
   },
   {
+    "id": "frontier-tech-2026-11-11",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-11-11",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "엔비디아가 2027년 플래그십 가속기 '베라 루빈(Vera Rubin)'의 폭발적 메모리 병목을 극복하기 위해 TSMC에 차세대 '3D DRAM' 직접 제조 검토를 요청함에 따라 전통 메모리 삼국지 구도에 거대한 지각변동이 감지됨. SK하이닉스는 TSMC 로직 베이스 다이 연합과 Advanced MR-MUF 패키징을 앞세워 엔비디아 루빈 HBM4 12단(36GB) 초도 물량의 약 70%를 휩쓸며 1위 지위를 확고히 굳히는 한편, 삼성전자는 세계 유일의 턴키(메모리 + 2나노/4나노 파운드리 + 2...",
+    "tags": [
+      "AAPL",
+      "MSFT",
+      "GOOGL",
+      "AMZN",
+      "NVDA",
+      "META"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-11-11.html"
+  },
+  {
     "id": "buffett-alpha-2026-11-11",
     "stream": "buffett-alpha",
     "stream_label_kr": "S&P 500 버핏 알파 스캐너",
