@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-11",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-11",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "미국 SEC EDGAR 공시(S-1/10-Q/8-K/Form 144/Form 4) 및 13F 스마트머니 포트폴리오 교차 심층 분석 구글(Alphabet)의 앤스로픽(Anthropic) $100억 추가 지분 투자 확약과 AI 생태계 패권 강화 : 11월 10일(화) 나스닥 IPO를 추진 중인 앤스로픽이 SEC Form S-1 수정안을 공시했습니다. 구글은 공모가($70~$78) 기준 $100억 규모의 무의결권 Class N 보통주 를 추가 매입하기로 확약하며, Google Cloud 및 차세대 TP...",
+    "tags": [
+      "AAPL",
+      "MSFT",
+      "GOOGL",
+      "PLTR",
+      "NVDA",
+      "META"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-11.html"
+  },
+  {
     "id": "buffett-alpha-2026-11-10",
     "stream": "buffett-alpha",
     "stream_label_kr": "S&P 500 버핏 알파 스캐너",
