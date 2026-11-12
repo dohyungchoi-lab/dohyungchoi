@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-12",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-12",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "미국 SEC EDGAR 공시(S-1/A, 10-Q, 8-K, Form 144, Form 4) 및 13F 스마트머니 포트폴리오 교차 심층 분석 AI 클라우드 실적 호조(CoreWeave 등)에 힘입은 전면 반등 및 나스닥 +1.60% 급등: 전일 10월 CPI 서프라이즈(헤드라인 +0.4% MoM)로 인한 12월 25bp 금리인상 경계감을 딛고, AI 인프라 수주 호조와 빅테크 실적 지속성이 확인되며 나스닥(+400.31p)과 S&P 500(+98.45p)이 강력한 V자 반등을 시현했습니다. 애플(...",
+    "tags": [
+      "AAPL",
+      "GOOGL",
+      "PLTR",
+      "NVDA",
+      "MSFT",
+      "META"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-12.html"
+  },
+  {
     "id": "market-report-2026-11-11",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
