@@ -20,6 +20,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-11-12.html"
   },
   {
+    "id": "buffett-alpha-2026-11-12",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-12",
+    "title": "[S&P 500 Buffett Alpha] 워런 버핏형 해자·자사주소각·수주폭발 종목 발굴 리포트",
+    "summary": "[버핏 해자 & 자사주 소각] 가트너(IT, -13.9% 주식수 소각 1위) & 페어아이작(FICO, -60.8% 낙폭, ROIC 83.5%): 독점적 지식 구독 및 신용평가 통행세 비즈니스를 영위하는 초고ROIC 기업들이 두 자릿수 FCF Yield를 창출하며 공격적으로 자사주를 장내 소각('주식 자가포식') 중입니다. 규제 및 거시 우려로 인한 고점 대비 과도한 밸류에이션 할인은 강력한 버핏형 안전마진을 제공합니다. [RPO 수주잔고 폭발 & AI 인프라] 컴포트 시스템즈(FIX, 수주잔고 +...",
+    "tags": [
+      "IT",
+      "FICO",
+      "FIX",
+      "AVGO",
+      "BKNG",
+      "MU"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-12.html"
+  },
+  {
     "id": "market-report-2026-11-11",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",

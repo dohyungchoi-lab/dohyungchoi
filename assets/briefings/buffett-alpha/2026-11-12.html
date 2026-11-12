@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[S&P 500 Buffett Alpha] 2026-11-12 워런 버핏형 해자·자사주소각·수주폭발 종목 발굴 리포트</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #202124;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 24px 16px;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    overflow: hidden;
+    border: 1px solid #dadce0;
+  }
+  .header {
+    background: linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%);
+    color: #ffffff;
+    padding: 32px 28px;
+  }
+  .header h1 {
+    margin: 0 0 8px 0;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  .header .meta {
+    font-size: 14px;
+    opacity: 0.9;
+  }
+  .content {
+    padding: 28px;
+  }
+  .exec-summary {
+    background: #e8f0fe;
+    border-left: 5px solid #1a73e8;
+    padding: 20px 24px;
+    border-radius: 6px;
+    margin-bottom: 32px;
+  }
+  .exec-summary h2 {
+    margin: 0 0 12px 0;
+    font-size: 19px;
+    color: #1967d2;
+  }
+  .exec-summary ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  .exec-summary li {
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+  .section-title {
+    font-size: 21px;
+    font-weight: 700;
+    color: #202124;
+    border-bottom: 2px solid #e8eaed;
+    padding-bottom: 10px;
+    margin-top: 36px;
+    margin-bottom: 20px;
+  }
+  .card {
+    background: #ffffff;
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+    padding: 22px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f1f3f4;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+  }
+  .card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a73e8;
+  }
+  .badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .badge-blue { background-color: #e8f0fe; color: #1a73e8; }
+  .badge-green { background-color: #e6f4ea; color: #137333; }
+  .badge-purple { background-color: #f3e8fd; color: #9334e6; }
+  .badge-amber { background-color: #fef7e0; color: #b06000; }
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 12px;
+    margin-bottom: 16px;
+    background: #f8f9fa;
+    padding: 14px;
+    border-radius: 8px;
+  }
+  .metric-item {
+    text-align: center;
+  }
+  .metric-label {
+    font-size: 12px;
+    color: #5f6368;
+    margin-bottom: 4px;
+  }
+  .metric-val {
+    font-size: 16px;
+    font-weight: 700;
+    color: #202124;
+  }
+  .metric-highlight {
+    color: #1a73e8;
+  }
+  .metric-green {
+    color: #137333;
+  }
+  .metric-red {
+    color: #d93025;
+  }
+  .narrative-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3c4043;
+    margin-top: 14px;
+    margin-bottom: 4px;
+  }
+  .narrative-desc {
+    font-size: 14px;
+    color: #3c4043;
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  .sec-links {
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px dashed #e8eaed;
+    font-size: 13px;
+  }
+  .sec-links a {
+    color: #1a73e8;
+    text-decoration: none;
+    margin-right: 14px;
+    font-weight: 500;
+  }
+  .sec-links a:hover {
+    text-decoration: underline;
+  }
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+    font-size: 13px;
+  }
+  .data-table th {
+    background-color: #f1f3f4;
+    color: #3c4043;
+    padding: 10px 8px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid #dadce0;
+  }
+  .data-table td {
+    padding: 10px 8px;
+    border-bottom: 1px solid #e8eaed;
+  }
+  .data-table tr:hover {
+    background-color: #f8f9fa;
+  }
+  .footer {
+    background: #f1f3f4;
+    color: #5f6368;
+    padding: 20px 28px;
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px solid #dadce0;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>[S&P 500 Buffett Alpha] 워런 버핏형 해자·자사주소각·수주폭발 종목 발굴 리포트</h1>
+    <div class="meta">기준일: 2026-11-12 | S&P 500 503개사 전수 스캔 (SEC EDGAR XBRL & Form 4 Code P 결합)</div>
+  </div>
+  <div class="content">
+
+    <!-- 1. Executive Summary -->
+    <div class="exec-summary">
+      <h2>Executive Summary: 오늘의 S&P 500 전수 스캔 3줄 요약</h2>
+      <ul>
+        <li><strong>[버핏 해자 & 자사주 소각] 가트너(IT, -13.9% 주식수 소각 1위) & 페어아이작(FICO, -60.8% 낙폭, ROIC 83.5%):</strong> 독점적 지식 구독 및 신용평가 통행세 비즈니스를 영위하는 초고ROIC 기업들이 두 자릿수 FCF Yield를 창출하며 공격적으로 자사주를 장내 소각('주식 자가포식') 중입니다. 규제 및 거시 우려로 인한 고점 대비 과도한 밸류에이션 할인은 강력한 버핏형 안전마진을 제공합니다.</li>
+        <li><strong>[RPO 수주잔고 폭발 & AI 인프라] 컴포트 시스템즈(FIX, 수주잔고 +109.0% 폭증) & 브로드컴(AVGO, RPO +551.6%):</strong> 빅테크 하이퍼스케일러의 차세대 AI 데이터센터 액체냉각 및 전기 인프라 수요 폭발로 컴포트 시스템즈의 확정 수주잔고(Backlog)가 178.1억 달러(+109% YoY)로 사상 최고치를 경신했으며, ROIC 51.6%의 압도적 자본 효율성을 입증하고 있습니다.</li>
+        <li><strong>[내부자 장내 직접 매수] 롤린스(ROL, $99.91M 창업가문 매집) & 로크웰 오토메이션(ROK, CEO $1.55M 신규 매수):</strong> 북미 1위 방제(Orkin) 기업 롤린스의 설립 가문 지배기구(Lor Inc & Rollins Trust)가 9,991만 달러(약 1,390억 원)를 장내 직접 매수한 데 이어, 스마트 팩토리 자동화 1위 로크웰 오토메이션의 블레이크 모렛(Blake Moret) CEO가 11월 9일 장내에서 4,000주($155만)를 직접 매수(Code P)하며 강력한 바닥 신호를 보냈습니다.</li>
+      </ul>
+    </div>
+
+    <!-- 2. Top Alpha Deep-Dive -->
+    <div class="section-title">Top Alpha Deep-Dive: SEC 공시 기반 심층 분석 (4선)</div>
+
+    <!-- Card 1: IT -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">1. 가트너 (Gartner, Inc. / NYSE: IT)</div>
+        <span class="badge badge-blue">Track 1: 버핏형 해자 & 자사주 소각 1위</span>
+      </div>
+      <div class="metrics-grid">
+        <div class="metric-item"><div class="metric-label">현재가</div><div class="metric-val">$193.00</div></div>
+        <div class="metric-item"><div class="metric-label">52주 고점 대비</div><div class="metric-val metric-red">-24.87%</div></div>
+        <div class="metric-item"><div class="metric-label">FCF Yield</div><div class="metric-val metric-green">10.62%</div></div>
+        <div class="metric-item"><div class="metric-label">ROIC</div><div class="metric-val metric-highlight">29.39%</div></div>
+        <div class="metric-item"><div class="metric-label">주식수 YoY</div><div class="metric-val metric-green">-13.93%</div></div>
+        <div class="metric-item"><div class="metric-label">P/E (TTM)</div><div class="metric-val">13.76x</div></div>
+      </div>
+      <div class="narrative-title">워런 버핏의 시각 - 비즈니스 해자 및 투자 논리</div>
+      <div class="narrative-desc">
+        가트너는 전 세계 글로벌 포춘 500 기업 CIO 및 기술 리더들의 IT 예산 편성 및 벤더 선정 시 필수 참조 벤치마크인 '매직 쿼드런트(Magic Quadrant)'를 독점하고 있는 지식 기반 구독 경제의 톨게이트(Tollbooth) 기업입니다.<br>
+        2026년 11월 3일 공시된 10-Q 및 8-K에 따르면, 글로벌 거시 불확실성에도 불구하고 연구 구독(Research) 부문의 계약가치(Contract Value)가 견조하게 방어되고 있습니다. 버핏이 가장 찬사하는 <strong>'자가포식(Share Cannibal)'</strong> 전략을 완벽히 실행 중으로, 연간 가중평균 유통주식수를 전년 대비 무려 <strong>-13.93% 소각</strong>하여 S&P 500 전체 1위를 기록했습니다. 현재 FCF Yield 10.62%, PER 13.8배로 자사주 매입 효과가 주당 가치를 극대화하고 있습니다.
+      </div>
+      <div class="narrative-title">주가 조정 원인 및 리스크 요인</div>
+      <div class="narrative-desc">
+        컨설팅 부문 수주 지연과 콘퍼런스 부문 비용 증가로 단기 마진이 일시 압박을 받았으나, 핵심인 리서치 구독 갱신율(Retention Rate)은 85% 이상으로 견고합니다. 경기순환적 둔화에 따른 저평가 구간입니다.
+      </div>
+      <div class="sec-links">
+        <strong>공식 SEC 공시 원문:</strong>
+        <a href="https://www.sec.gov/Archives/edgar/data/749251/000074925126000307/it-20260930.htm" target="_blank">10-Q (2026-11-03)</a>
+        <a href="https://www.sec.gov/Archives/edgar/data/749251/000074925126000305/it-20261103.htm" target="_blank">8-K (2026-11-03)</a>
+        <a href="https://www.sec.gov/Archives/edgar/data/749251/000074925126000303/xslF345X06/form4.xml" target="_blank">Form 4 (2026-10-30)</a>
+      </div>
+    </div>
+
+    <!-- Card 2: FICO -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">2. 페어아이작 (Fair Isaac Corporation / NYSE: FICO)</div>
+        <span class="badge badge-purple">Track 1: 초고ROIC 독점 해자 & -60.8% 역발상</span>
+      </div>
+      <div class="metrics-grid">
+        <div class="metric-item"><div class="metric-label">현재가</div><div class="metric-val">$728.85</div></div>
+        <div class="metric-item"><div class="metric-label">52주 고점 대비</div><div class="metric-val metric-red">-60.79%</div></div>
+        <div class="metric-item"><div class="metric-label">FCF Yield</div><div class="metric-val metric-green">6.64%</div></div>
+        <div class="metric-item"><div class="metric-label">ROIC</div><div class="metric-val metric-highlight">83.45%</div></div>
+        <div class="metric-item"><div class="metric-label">주식수 YoY</div><div class="metric-val metric-green">-7.62%</div></div>
+        <div class="metric-item"><div class="metric-label">P/E (TTM)</div><div class="metric-val">20.07x</div></div>
+      </div>
+      <div class="narrative-title">워런 버핏의 시각 - 비즈니스 해자 및 투자 논리</div>
+      <div class="narrative-desc">
+        페어아이작은 미국 주택 모기지 및 신용카드 대출 심사의 절대적 표준(Standard)인 FICO Score를 보유하여 무자본에 가까운 자본적 지출로 막대한 잉여현금흐름을 창출하는 '궁극의 경제적 해자'를 가진 기업입니다(ROIC 83.45%).<br>
+        2026년 11월 6일 제출된 <strong>2026 회계연도 연례보고서(10-K)</strong> 본문에 따르면, 연간 매출은 25억 달러(+27% YoY), 핵심 스코어링(Scores) 부문 매출은 17억 달러로 전년 대비 <strong>+41% 폭증</strong>했으며 희석 EPS는 $36.32(+37% YoY)를 기록했습니다. 회사는 이 현금을 고스란히 자사주 매입에 투입하여 유통주식수를 <strong>-7.62% 소각</strong>했습니다.
+      </div>
+      <div class="narrative-title">주가 급락 원인 및 규제 리스크 해부</div>
+      <div class="narrative-desc">
+        연방주택금융청(FHFA)의 밴티지스코어(VantageScore 4.0) 병행 도입 방침 및 DOJ 반독점 조사 보도로 52주 최고가 대비 -60.8% 급락했습니다. 그러나 10-K 본문 확인 결과, 70개 이상의 대형 모기지 은행이 FICO 10T 프로그램을 채택하여 30년간 구축된 대출 증권화 시장의 FICO 표준을 대체하기는 사실상 불가능함이 입증되었습니다. 8-K에 반영된 반독점 합의 충당금($65M)으로 핵심 사법 리스크가 종결 국면에 접어들었으며, 규제 공포로 인한 PER 20배 수준의 밸류에이션 급락은 일생일대의 역발상 기회를 제공합니다.
+      </div>
+      <div class="sec-links">
+        <strong>공식 SEC 공시 원문:</strong>
+        <a href="https://www.sec.gov/Archives/edgar/data/814547/000081454726000042/fico-20260930.htm" target="_blank">10-K (2026-11-06)</a>
+        <a href="https://www.sec.gov/Archives/edgar/data/814547/000081454726000037/fico-20261104.htm" target="_blank">8-K (2026-11-04)</a>
+        <a href="https://www.sec.gov/Archives/edgar/data/814547/000121465926013844/xslF345X06/marketforms-74037.xml" target="_blank">Form 4 (2026-11-06)</a>
+      </div>
+    </div>
+
+    <!-- Card 3: FIX -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">3. 컴포트 시스템즈 USA (Comfort Systems USA / NYSE: FIX)</div>
+        <span class="badge badge-green">Track 2: 수주잔고 $17.8B (+109% YoY) 폭증 & AI 인프라</span>
+      </div>
+      <div class="metrics-grid">
+        <div class="metric-item"><div class="metric-label">현재가</div><div class="metric-val">$324.50</div></div>
+        <div class="metric-item"><div class="metric-label">52주 고점 대비</div><div class="metric-val metric-red">-43.99%</div></div>
+        <div class="metric-item"><div class="metric-label">매출 성장률</div><div class="metric-val metric-green">+50.26%</div></div>
+        <div class="metric-item"><div class="metric-label">영업이익률</div><div class="metric-val metric-highlight">17.09%</div></div>
+        <div class="metric-item"><div class="metric-label">수주잔고 YoY</div><div class="metric-val metric-green">+108.96%</div></div>
+        <div class="metric-item"><div class="metric-label">ROIC</div><div class="metric-val metric-highlight">51.59%</div></div>
+      </div>
+      <div class="narrative-title">워런 버핏의 시각 - 비즈니스 해자 및 투자 논리</div>
+      <div class="narrative-desc">
+        컴포트 시스템즈는 대규모 AI 하이퍼스케일러 데이터센터, 첨단 반도체 팹, 전기차 배터리 공장에 필수적인 기계(HVAC 액체냉각 공조) 및 전기(Electrical) 엔지니어링 시공 1위 사업자입니다.<br>
+        2026년 10월 22일 제출된 <strong>3분기 10-Q 공시 본문</strong>에 따르면, 확정 수주잔고(Backlog)가 전년 동기 $8.52B에서 <strong>$17.81B (약 24.5조 원, 전년 대비 +108.96% 폭증)</strong>로 사상 최고치를 경신했습니다. M&A 기여분($84M)을 제외한 유기적(Same-Store) 수주잔고가 $17.39B로 전체의 98% 이상이 순수 유기적 AI 인프라 수주 폭발에 기인합니다. 시공 모듈화와 선별 수주로 영업이익률이 329 bps 확장되었고 ROIC는 51.59%에 달합니다.
+      </div>
+      <div class="narrative-title">주가 조정 원인 및 리스크 요인</div>
+      <div class="narrative-desc">
+        미 대선 이후 정책 불확실성과 금리 인하 지연에 따른 전통 상업용 부동산 착공 둔화 우려로 주가가 52주 고점 대비 -44.0% 조정을 받았습니다. 그러나 수주잔고의 80% 이상이 취소 불가능한 기술/데이터센터 섹터에 집중되어 있어 2027년까지의 실적 가시성이 완벽히 확보되어 있습니다.
+      </div>
+      <div class="sec-links">
+        <strong>공식 SEC 공시 원문:</strong>
+        <a href="https://www.sec.gov/Archives/edgar/data/1035983/000110465926118159/fix-20260930x10q.htm" target="_blank">10-Q (2026-10-22)</a>
+        <a href="https://www.sec.gov/Archives/edgar/data/1035983/000110465926119613/tm2628385d1_8k.htm" target="_blank">8-K (2026-10-28)</a>
+        <a href="https://www.sec.gov/Archives/edgar/data/1035983/000110465926122938/tm2629087d1_8k.htm" target="_blank">8-K (2026-11-05)</a>
+      </div>
+    </div>
+
+    <!-- Card 4: ROL & ROK -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">4. 롤린스 (ROL) & 로크웰 오토메이션 (ROK)</div>
+        <span class="badge badge-amber">Track 3: 내부자 & 슈퍼인베스터 장내 직접 매수</span>
+      </div>
+      <div class="metrics-grid">
+        <div class="metric-item"><div class="metric-label">ROL 현재가</div><div class="metric-val">$38.42 (-41.8%)</div></div>
+        <div class="metric-item"><div class="metric-label">ROL 내부자매수</div><div class="metric-val metric-green">$99.91M</div></div>
+        <div class="metric-item"><div class="metric-label">ROL ROIC</div><div class="metric-val metric-highlight">23.65%</div></div>
+        <div class="metric-item"><div class="metric-label">ROK 현재가</div><div class="metric-val">$386.36 (-18.3%)</div></div>
+        <div class="metric-item"><div class="metric-label">ROK CEO매수</div><div class="metric-val metric-green">$1.55M (4천주)</div></div>
+        <div class="metric-item"><div class="metric-label">ROK ROIC</div><div class="metric-val metric-highlight">21.65%</div></div>
+      </div>
+      <div class="narrative-title">워런 버핏의 시각 - 비즈니스 해자 및 투자 논리</div>
+      <div class="narrative-desc">
+        <strong>롤린스 (Rollins, ROL):</strong> 오킨(Orkin) 브랜드를 중심으로 북미 및 전 세계 해충 방제 시장을 지배하는 필수 소비재 성격의 경기방어 해자 기업입니다. 해충 방제는 불황에도 해지할 수 없는 반복 구독(Route-based subscription) 모델로, 잉여현금흐름 전환율이 100%를 초과합니다. 2026년 11월 2일 Form 4에 따르면 동사의 10% 지배주주인 Lor Inc와 R. Randall Rollins Voting Trust가 $34.59의 단가로 장내에서 288만 8,804주($99.91M, 약 1,390억 원)를 직접 매수(Code P)했습니다.<br><br>
+        <strong>로크웰 오토메이션 (Rockwell Automation, ROK):</strong> 글로벌 산업 자동화 및 디지털 트랜스포메이션 하드웨어·소프트웨어 선도 기업(ROIC 21.65%)입니다. 2026년 11월 9일 공시된 Form 4에 따르면 블레이크 모렛(Blake D. Moret) 회장 겸 CEO가 11월 9일 장내에서 4,000주($154.5만 달러, 주당 $386.36)를 직접 매수(지분 +4% 확대)했습니다. 스마트 제조 인프라의 바닥 턴어라운드에 대한 최고경영자의 강력한 자신감을 표명합니다.
+      </div>
+      <div class="sec-links">
+        <strong>공식 SEC 공시 원문:</strong>
+        <a href="https://www.sec.gov/Archives/edgar/data/84839/000110465926121503/xslF345X06/tm2628593-2_4seq1.xml" target="_blank">ROL Form 4 (2026-11-02)</a>
+        <a href="https://www.sec.gov/Archives/edgar/data/84839/000008483926000045/rol-20260930.htm" target="_blank">ROL 10-Q (2026-10-22)</a>
+        <a href="https://www.sec.gov/Archives/edgar/data/1024478/000151515426000003/xslF345X06/wk-form4_1794264488.xml" target="_blank">ROK Form 4 (2026-11-09)</a>
+        <a href="https://www.sec.gov/Archives/edgar/data/1024478/000102447826000045/rok-20261105.htm" target="_blank">ROK 8-K (2026-11-05)</a>
+      </div>
+    </div>
+
+    <!-- 3. Tables Section -->
+    <div class="section-title">3대 핵심 트랙별 S&P 500 스크리닝 요약 테이블</div>
+
+    <!-- Track 1 Table -->
+    <h3 style="color: #1a73e8; margin-top: 24px; margin-bottom: 8px;">[Track 1] 버핏형 해자 + 저평가 조정 + 자사주 소각(Cannibal) 상위 종목</h3>
+    <p style="font-size: 13px; color: #5f6368; margin-top: 0;">필터 조건: ROIC ≥ 15%, FCF Yield ≥ 4.0%, 52W Drawdown ≤ -15.0%, 유통주식수 YoY 증감률 ≤ -1.5%</p>
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>티커</th>
+          <th>기업명</th>
+          <th>섹터</th>
+          <th>현재가</th>
+          <th>52주 낙폭</th>
+          <th>FCF Yield</th>
+          <th>ROIC</th>
+          <th>주식수 YoY</th>
+          <th>PER</th>
+          <th>공시</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>DPZ</strong></td>
+          <td>Domino's</td>
+          <td>Consumer Discretionary</td>
+          <td>$328.6</td>
+          <td style="color: #c5221f; font-weight:600;">-25.7%</td>
+          <td style="color: #137333; font-weight:600;">5.9%</td>
+          <td style="color: #1967d2; font-weight:600;">146.3%</td>
+          <td style="color: #137333; font-weight:600;">-3.15%</td>
+          <td>18.1x</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1286681/000204218126000010/xslF345X06/ownership.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>FICO</strong></td>
+          <td>Fair Isaac</td>
+          <td>Information Technology</td>
+          <td>$728.8</td>
+          <td style="color: #c5221f; font-weight:600;">-60.8%</td>
+          <td style="color: #137333; font-weight:600;">6.6%</td>
+          <td style="color: #1967d2; font-weight:600;">83.5%</td>
+          <td style="color: #137333; font-weight:600;">-7.62%</td>
+          <td>20.1x</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/814547/000121465926013844/xslF345X06/marketforms-74037.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>GEV</strong></td>
+          <td>GE Vernova</td>
+          <td>Industrials</td>
+          <td>$808.2</td>
+          <td style="color: #c5221f; font-weight:600;">-32.4%</td>
+          <td style="color: #137333; font-weight:600;">8.0%</td>
+          <td style="color: #1967d2; font-weight:600;">90.9%</td>
+          <td style="color: #137333; font-weight:600;">-2.17%</td>
+          <td>21.2x</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1996810/000199681026000163/gev-20260930.htm' target='_blank'>10-Q</a></td>
+        </tr>
+        <tr>
+          <td><strong>BKNG</strong></td>
+          <td>Booking Holdings</td>
+          <td>Consumer Discretionary</td>
+          <td>$160.2</td>
+          <td style="color: #c5221f; font-weight:600;">-27.4%</td>
+          <td style="color: #137333; font-weight:600;">7.8%</td>
+          <td style="color: #1967d2; font-weight:600;">71.9%</td>
+          <td style="color: #137333; font-weight:600;">-5.52%</td>
+          <td>17.3x</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1075531/000107553126000045/bkng-20260930.htm' target='_blank'>10-Q</a></td>
+        </tr>
+        <tr>
+          <td><strong>IT</strong></td>
+          <td>Gartner</td>
+          <td>Information Technology</td>
+          <td>$193.0</td>
+          <td style="color: #c5221f; font-weight:600;">-24.9%</td>
+          <td style="color: #137333; font-weight:600;">10.6%</td>
+          <td style="color: #1967d2; font-weight:600;">29.4%</td>
+          <td style="color: #137333; font-weight:600;">-13.93%</td>
+          <td>13.8x</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/749251/000074925126000307/it-20260930.htm' target='_blank'>10-Q</a></td>
+        </tr>
+        <tr>
+          <td><strong>ADBE</strong></td>
+          <td>Adobe Inc.</td>
+          <td>Information Technology</td>
+          <td>$237.6</td>
+          <td style="color: #c5221f; font-weight:600;">-34.5%</td>
+          <td style="color: #137333; font-weight:600;">11.5%</td>
+          <td style="color: #1967d2; font-weight:600;">41.4%</td>
+          <td style="color: #137333; font-weight:600;">-6.16%</td>
+          <td>13.3x</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/796343/000079634326000170/xslF345X06/wk-form4_1792446782.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>MPC</strong></td>
+          <td>Marathon Petroleum</td>
+          <td>Energy</td>
+          <td>$402.8</td>
+          <td style="color: #c5221f; font-weight:600;">-18.5%</td>
+          <td style="color: #137333; font-weight:600;">19.0%</td>
+          <td style="color: #1967d2; font-weight:600;">27.5%</td>
+          <td style="color: #137333; font-weight:600;">-5.54%</td>
+          <td>7.9x</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1510295/000151029526000071/mpc-20260930.htm' target='_blank'>10-Q</a></td>
+        </tr>
+        <tr>
+          <td><strong>VLO</strong></td>
+          <td>Valero Energy</td>
+          <td>Energy</td>
+          <td>$363.7</td>
+          <td style="color: #c5221f; font-weight:600;">-21.2%</td>
+          <td style="color: #137333; font-weight:600;">14.9%</td>
+          <td style="color: #1967d2; font-weight:600;">36.1%</td>
+          <td style="color: #137333; font-weight:600;">-5.77%</td>
+          <td>8.2x</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1035002/000162828026069539/xslF345X06/wk-form4_1793740747.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>EXPE</strong></td>
+          <td>Expedia Group</td>
+          <td>Consumer Discretionary</td>
+          <td>$259.8</td>
+          <td style="color: #c5221f; font-weight:600;">-24.0%</td>
+          <td style="color: #137333; font-weight:600;">12.0%</td>
+          <td style="color: #1967d2; font-weight:600;">33.3%</td>
+          <td style="color: #137333; font-weight:600;">-7.72%</td>
+          <td>15.2x</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1324424/000132442426000062/expe-20260930.htm' target='_blank'>10-Q</a></td>
+        </tr>
+        <tr>
+          <td><strong>DECK</strong></td>
+          <td>Deckers Brands</td>
+          <td>Consumer Discretionary</td>
+          <td>$88.4</td>
+          <td style="color: #c5221f; font-weight:600;">-27.7%</td>
+          <td style="color: #137333; font-weight:600;">8.9%</td>
+          <td style="color: #1967d2; font-weight:600;">38.4%</td>
+          <td style="color: #137333; font-weight:600;">-7.40%</td>
+          <td>11.7x</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/910521/000162828026068116/deck-20260930.htm' target='_blank'>10-Q</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Track 2 Table -->
+    <h3 style="color: #137333; margin-top: 32px; margin-bottom: 8px;">[Track 2] 실적 인플렉션 & 수주잔고(RPO/선수금) 폭발 + 고ROIC 상위 종목</h3>
+    <p style="font-size: 13px; color: #5f6368; margin-top: 0;">필터 조건: 매출 YoY ≥ +15%, 영업이익률 ≥ 15%, 마진 확장 ≥ +200bps, ROIC ≥ 15%, RPO/선수금 급증</p>
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>티커</th>
+          <th>기업명</th>
+          <th>섹터</th>
+          <th>매출 YoY</th>
+          <th>영업이익률</th>
+          <th>마진 확장</th>
+          <th>ROIC</th>
+          <th>RPO YoY</th>
+          <th>52주 낙폭</th>
+          <th>공시</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>MU</strong></td>
+          <td>Micron Technology</td>
+          <td>Information Technology</td>
+          <td style="color: #137333; font-weight:600;">+345.7%</td>
+          <td>80.4%</td>
+          <td style="color: #1967d2;">+5705 bps</td>
+          <td style="color: #137333; font-weight:600;">80.2%</td>
+          <td style="color: #1967d2; font-weight:600;">189.0%</td>
+          <td style="color: #c5221f;">-35.4%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/723125/000110465926123389/tm2629062d1_8k.htm' target='_blank'>8-K</a></td>
+        </tr>
+        <tr>
+          <td><strong>HAS</strong></td>
+          <td>Hasbro</td>
+          <td>Consumer Discretionary</td>
+          <td style="color: #137333; font-weight:600;">+16.2%</td>
+          <td>22.2%</td>
+          <td style="color: #1967d2;">+10354 bps</td>
+          <td style="color: #137333; font-weight:600;">25.3%</td>
+          <td style="color: #1967d2; font-weight:600;">-4.7%</td>
+          <td style="color: #c5221f;">-0.5%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/46080/000182805726000018/xslF345X06/wk-form4_1793744393.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>AVGO</strong></td>
+          <td>Broadcom</td>
+          <td>Information Technology</td>
+          <td style="color: #137333; font-weight:600;">+85.5%</td>
+          <td>53.9%</td>
+          <td style="color: #1967d2;">+1701 bps</td>
+          <td style="color: #137333; font-weight:600;">26.1%</td>
+          <td style="color: #1967d2; font-weight:600;">551.6%</td>
+          <td style="color: #c5221f;">-30.3%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1730168/000119312526434271/d148323d8k.htm' target='_blank'>8-K</a></td>
+        </tr>
+        <tr>
+          <td><strong>PLTR</strong></td>
+          <td>Palantir Technologies</td>
+          <td>Information Technology</td>
+          <td style="color: #137333; font-weight:600;">+92.8%</td>
+          <td>47.1%</td>
+          <td style="color: #1967d2;">+2029 bps</td>
+          <td style="color: #137333; font-weight:600;">40.2%</td>
+          <td style="color: #1967d2; font-weight:600;">104.2%</td>
+          <td style="color: #c5221f;">-19.0%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1321655/000184024426000023/xslF345X06/wk-form4_1793845563.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>BE</strong></td>
+          <td>Bloom Energy</td>
+          <td>Industrials</td>
+          <td style="color: #137333; font-weight:600;">+167.7%</td>
+          <td>17.2%</td>
+          <td style="color: #1967d2;">+1806 bps</td>
+          <td style="color: #137333; font-weight:600;">15.3%</td>
+          <td style="color: #1967d2; font-weight:600;">50.4%</td>
+          <td style="color: #c5221f;">-40.4%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1664703/000119312526450213/xslF345X06/ownership.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>VRT</strong></td>
+          <td>Vertiv</td>
+          <td>Industrials</td>
+          <td style="color: #137333; font-weight:600;">+24.1%</td>
+          <td>19.5%</td>
+          <td style="color: #1967d2;">+271 bps</td>
+          <td style="color: #137333; font-weight:600;">27.2%</td>
+          <td style="color: #1967d2; font-weight:600;">189.0%</td>
+          <td style="color: #c5221f;">-45.6%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/vrt-20260930.htm' target='_blank'>10-Q</a></td>
+        </tr>
+        <tr>
+          <td><strong>NVDA</strong></td>
+          <td>Nvidia</td>
+          <td>Information Technology</td>
+          <td style="color: #137333; font-weight:600;">+105.8%</td>
+          <td>66.2%</td>
+          <td style="color: #1967d2;">+539 bps</td>
+          <td style="color: #137333; font-weight:600;">102.4%</td>
+          <td style="color: #1967d2; font-weight:600;">68.4%</td>
+          <td style="color: #c5221f;">-28.6%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1045810/000119764726000013/xslF345X06/wk-form4_1793999520.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>TER</strong></td>
+          <td>Teradyne</td>
+          <td>Information Technology</td>
+          <td style="color: #137333; font-weight:600;">+103.9%</td>
+          <td>32.9%</td>
+          <td style="color: #1967d2;">+1902 bps</td>
+          <td style="color: #137333; font-weight:600;">41.8%</td>
+          <td style="color: #1967d2; font-weight:600;">-86.0%</td>
+          <td style="color: #c5221f;">-45.5%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/97210/000090445426000589/xslF345X06/edgar.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>FIX</strong></td>
+          <td>Comfort Systems USA</td>
+          <td>Industrials</td>
+          <td style="color: #137333; font-weight:600;">+50.3%</td>
+          <td>17.1%</td>
+          <td style="color: #1967d2;">+329 bps</td>
+          <td style="color: #137333; font-weight:600;">51.6%</td>
+          <td style="color: #1967d2; font-weight:600;">109.0%</td>
+          <td style="color: #c5221f;">-44.0%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1035983/000110465926122938/tm2629087d1_8k.htm' target='_blank'>8-K</a></td>
+        </tr>
+        <tr>
+          <td><strong>HOOD</strong></td>
+          <td>Robinhood Markets</td>
+          <td>Financials</td>
+          <td style="color: #137333; font-weight:600;">+32.2%</td>
+          <td>54.2%</td>
+          <td style="color: #1967d2;">+951 bps</td>
+          <td style="color: #137333; font-weight:600;">18.4%</td>
+          <td style="color: #1967d2; font-weight:600;">64.0%</td>
+          <td style="color: #c5221f;">-39.5%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1783879/000170556026000027/xslF345X06/wk-form4_1793914247.xml' target='_blank'>4</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Track 3 Table -->
+    <h3 style="color: #b06000; margin-top: 32px; margin-bottom: 8px;">[Track 3] 내부자 & 슈퍼인베스터 장내 직접 매수 (Form 4 Code P) 상위 종목</h3>
+    <p style="font-size: 13px; color: #5f6368; margin-top: 0;">필터 조건: 최근 30일 이내 SEC Form 4 장내 직접 매수(Code P) 발생 S&P 500 편입 기업</p>
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>티커</th>
+          <th>기업명</th>
+          <th>섹터</th>
+          <th>장내매수 금액</th>
+          <th>매수인 수</th>
+          <th>52주 낙폭</th>
+          <th>FCF Yield</th>
+          <th>ROIC</th>
+          <th>주식수 YoY</th>
+          <th>공시</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>ROL</strong></td>
+          <td>Rollins, Inc.</td>
+          <td>Industrials</td>
+          <td style="color: #137333; font-weight:700;">$99.91M</td>
+          <td>2명</td>
+          <td style="color: #c5221f;">-41.8%</td>
+          <td>3.7%</td>
+          <td>23.6%</td>
+          <td>-0.68%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/84839/000110465926121503/xslF345X06/tm2628593-2_4seq1.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>MGM</strong></td>
+          <td>MGM Resorts</td>
+          <td>Consumer Discretionary</td>
+          <td style="color: #137333; font-weight:700;">$51.74M</td>
+          <td>1명</td>
+          <td style="color: #c5221f;">—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>-6.48%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/789570/0001011438260000643/xslF345X06/form4.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>PEP</strong></td>
+          <td>PepsiCo</td>
+          <td>Consumer Staples</td>
+          <td style="color: #137333; font-weight:700;">$23.69M</td>
+          <td>1명</td>
+          <td style="color: #c5221f;">-16.1%</td>
+          <td>5.3%</td>
+          <td>17.0%</td>
+          <td>-0.29%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/77476/000163025326000007/xslF345X06/wk-form4_1792785637.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>KMI</strong></td>
+          <td>Kinder Morgan</td>
+          <td>Energy</td>
+          <td style="color: #137333; font-weight:700;">$14.99M</td>
+          <td>1명</td>
+          <td style="color: #c5221f;">-9.2%</td>
+          <td>5.6%</td>
+          <td>5.7%</td>
+          <td>0.14%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1506307/000150630726000143/xslF345X06/wk-form4_1794349771.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>INTC</strong></td>
+          <td>Intel</td>
+          <td>Information Technology</td>
+          <td style="color: #137333; font-weight:700;">$9.71M</td>
+          <td>1명</td>
+          <td style="color: #c5221f;">-56.1%</td>
+          <td>0.5%</td>
+          <td>-7.7%</td>
+          <td>16.82%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/50863/000005086326000195/xslF345X06/form4.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>ACN</strong></td>
+          <td>Accenture</td>
+          <td>Information Technology</td>
+          <td style="color: #137333; font-weight:700;">$3.20M</td>
+          <td>2명</td>
+          <td style="color: #c5221f;">-12.9%</td>
+          <td>7.8%</td>
+          <td>20.2%</td>
+          <td>-2.36%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1467373/000191110926000020/xslF345X06/wk-form4_1794259178.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>CVS</strong></td>
+          <td>CVS Health</td>
+          <td>Health Care</td>
+          <td style="color: #137333; font-weight:700;">$2.00M</td>
+          <td>1명</td>
+          <td style="color: #c5221f;">-19.1%</td>
+          <td>13.6%</td>
+          <td>7.4%</td>
+          <td>1.34%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/64803/000006480326000112/xslF345X06/form4.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>ROK</strong></td>
+          <td>Rockwell Automation</td>
+          <td>Industrials</td>
+          <td style="color: #137333; font-weight:700;">$1.55M</td>
+          <td>1명</td>
+          <td style="color: #c5221f;">-18.3%</td>
+          <td>3.8%</td>
+          <td>21.6%</td>
+          <td>-1.24%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/1024478/000151515426000003/xslF345X06/wk-form4_1794264488.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>BA</strong></td>
+          <td>Boeing</td>
+          <td>Industrials</td>
+          <td style="color: #137333; font-weight:700;">$1.51M</td>
+          <td>2명</td>
+          <td style="color: #c5221f;">-31.4%</td>
+          <td>0.0%</td>
+          <td>18.2%</td>
+          <td>4.49%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/12927/000122520826008642/xslF345X06/doc4.xml' target='_blank'>4</a></td>
+        </tr>
+        <tr>
+          <td><strong>TFC</strong></td>
+          <td>Truist Financial</td>
+          <td>Financials</td>
+          <td style="color: #137333; font-weight:700;">$1.21M</td>
+          <td>1명</td>
+          <td style="color: #c5221f;">-10.6%</td>
+          <td>9.2%</td>
+          <td>4.6%</td>
+          <td>-5.05%</td>
+          <td><a href='https://www.sec.gov/Archives/edgar/data/92230/000153457426000018/xslF345X06/f4_a1eus00000anuuzmad-live.xml' target='_blank'>4</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+  <div class="footer">
+    본 리포트는 SEC EDGAR 공식 XBRL 및 Form 4 공시 데이터를 기반으로 산출된 정량적 퀀타멘털 분석 자료입니다.<br>
+    S&P 500 Buffett Alpha Scanner v2.1 &bull; Generated on 2026-11-12 UTC
+  </div>
+</div>
+</body>
+</html>
