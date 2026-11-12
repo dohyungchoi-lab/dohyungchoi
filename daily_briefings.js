@@ -20,6 +20,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-11-12.html"
   },
   {
+    "id": "frontier-tech-2026-11-12",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-11-12",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "엔비디아가 베라 루빈(Vera Rubin) 및 차세대 B300 플랫폼용 커스텀 HBM 'NVHBM' 규격을 확정하고, 메모리 컨트롤러를 GPU 다이에서 HBM 최하단 베이스 다이로 이관하여 GPU 면적 확보와 대역폭 30% 향상·전력 절감을 공식화함. 이에 따라 삼성전자, SK하이닉스, 마이크론 3사에 TSMC 3나노(N3P) 공정 베이스 다이 채택을 의무화함에 따라, '메모리+파운드리+패키징 자체 턴키'를 고수하던 삼성전자가 엔비디아 요구를 전격 수용해 TSMC 베이스 다이 위탁을 공식 병행(D...",
+    "tags": [
+      "AAPL",
+      "MSFT",
+      "GOOGL",
+      "AMZN",
+      "NVDA",
+      "META"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-11-12.html"
+  },
+  {
     "id": "buffett-alpha-2026-11-12",
     "stream": "buffett-alpha",
     "stream_label_kr": "S&P 500 버핏 알파 스캐너",
