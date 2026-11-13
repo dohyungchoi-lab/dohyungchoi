@@ -20,6 +20,46 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-11-13.html"
   },
   {
+    "id": "frontier-tech-2026-11-13",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-11-13",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "엔비디아가 한국 과학기술정보통신부(MSIT)와 손잡고 소버린 AI 인프라 확장을 선언, 리벨리온 등 국산 NPU/XPU를 엔비디아 'NVLink Fusion' 상호연결망에 공식 연동하고 Dynamo 소프트웨어로 초거대 AI 추론을 최적화하기로 발표함. 동시에 인텔은 'Intel AI Summit Seoul 2026'을 열고 한국의 세계 메모리 생산 3분의 2 인프라를 겨냥해 자사 첨단 패키징·파운드리 결합 커스텀 반도체 동맹을 적극 구애함. 한국 정부는 2030년까지 자율주행·로봇·가전·드론용 8...",
+    "tags": [
+      "AAPL",
+      "MSFT",
+      "GOOGL",
+      "AMZN",
+      "NVDA",
+      "META"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-11-13.html"
+  },
+  {
+    "id": "buffett-alpha-2026-11-13",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-13",
+    "title": "[S&P 500 Buffett Alpha] 워런 버핏형 해자·자사주소각·수주폭발 종목 발굴 리포트",
+    "summary": "[버핏 해자 & 자사주 소각] 가트너(IT, -13.9% 주식수 소각 1위) & 페어아이작(FICO, -61.4% 낙폭, ROIC 83.5%): 지식 구독 독점과 모기지·신용평가 통행세 해자를 보유한 초고ROIC 기업들이 6~10%대 FCF Yield를 창출하며 공격적인 '자가포식(Share Cannibal)' 소각을 진행 중입니다. 과도한 거시·규제 우려에 따른 주가 조정을 경영진이 공격적 자사주 매입으로 흡수하며 강력한 안전마진을 형성하고 있습니다. [RPO 수주잔고 폭발 & AI 인프라] 컴...",
+    "tags": [
+      "IT",
+      "FICO",
+      "FIX",
+      "MU",
+      "BKNG",
+      "AVGO"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-13.html"
+  },
+  {
     "id": "market-report-2026-11-12",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
