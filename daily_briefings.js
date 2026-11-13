@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-13",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-13",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "미국 SEC EDGAR 공시(10-Q, 8-K, Form 144, Form 4) 및 13F-HR 스마트머니 포트폴리오 교차 심층 분석 엔비디아(NVDA -4.08%) 리더십 노이즈발 충격과 AMD(+5.86%)·브로드컴(+5.54%)으로의 거대한 순환매: 젠슨 황 CEO의 지배구조 및 조사 루머 노이즈로 엔비디아가 급락했으나, 시장은 이를 AI 사이클의 종료가 아닌 '단일 벤더 집중 리스크 헷지'로 해석하며 구글 TPU 파트너 브로드컴과 AMD로 유동성이 대거 이동했습니다. 애플(AAPL $356...",
+    "tags": [
+      "NVDA",
+      "AAPL",
+      "GOOGL",
+      "AVGO",
+      "PLTR",
+      "MSFT"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-13.html"
+  },
+  {
     "id": "market-report-2026-11-12",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
