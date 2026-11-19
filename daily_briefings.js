@@ -1,5 +1,65 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-19",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-19",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "미국 SEC EDGAR 공시(13F-HR, 10-K, 8-K, 13G/A, Form 4) 및 앤스로픽 IPO·엔비디아 실적 교차 심층 분석 | 앤스로픽(ANT) 역대 최대 $813억 IPO($83/주, 기업가치 ~$1.5조) 금일 나스닥 상장 & AMZN(+3.58%)·GOOGL(+0.80%) 재평가 | 엔비디아 Q3 매출 $1,158억(+103% YoY)·Q4 $1,300억 가이던스에도 젠슨 황 복귀 불허 속 AMD(+5.30%)·AVGO(+3.56%) 순환매 | FOMC 매파적 의사록·Q3 13F 버크셔·시타델·퍼싱 스퀘어 전략 대조",
+    "tags": [
+      "GOOGL",
+      "PLTR",
+      "AAPL",
+      "NVDA",
+      "AMD",
+      "AVGO"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-19.html"
+  },
+  {
+    "id": "frontier-tech-2026-11-19",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-11-19",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "엔비디아 Q3 매출 $115.8B(+103%)·베라 루빈 NVL72 최고속 출하 vs 포스트 젠슨 황 체제 확정 × SK하이닉스 115만 원·삼성전기 81만 원(+7.43%)·삼성전자 메타 2나노 HBM4E 협력 | 앤트로픽 $1.51T 상장($26B 빅테크 연합) × MS Ignite MAI 7종 & Maia 300 vs 구글 Gemini 4 Neon | 현대차 보스턴 다이내믹스 100% 인수 & Atlas 반도체 팹 파일럿 × 소니 Soneium K-Pop 본드·삼성바이오 2.7조 유증 흥행",
+    "tags": [
+      "NVDA",
+      "GOOGL",
+      "MSFT",
+      "AMD",
+      "AVGO",
+      "TSM"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-11-19.html"
+  },
+  {
+    "id": "buffett-alpha-2026-11-19",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-19",
+    "title": "[S&P 500 Buffett Alpha] 워런 버핏형 해자·자사주소각·수주폭발 종목 발굴 리포트",
+    "summary": "[Track 1] GE 버노바(GEV, Q3 수주 +96%·RPO $197B·자사주 한도 $20B 2배 증액, FCF Yield 8.37%·ROIC 90.86%) & FICO(-63.5%)·IT(-13.9% 소각) 안전마진 심화 | [Track 2] 엔비디아(NVDA, 11/17 Q3 매출 $115.8B·PER 16.2배) & 마이크론(MU, Take-or-Pay 선수금 $13.0B·PER 9.5배) | [Track 3] 액센츄어(ACN, CEO $3.00M 매수·ROIC 20.3%)·아카마이(AKAM, CEO $2.55M·$19.9B RPO)·보잉(3인 $2.01M)",
+    "tags": [
+      "GEV",
+      "NVDA",
+      "MU",
+      "ACN",
+      "AKAM",
+      "IT"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-19.html"
+  },
+  {
     "id": "market-report-2026-11-13",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
