@@ -20,6 +20,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-11-20.html"
   },
   {
+    "id": "buffett-alpha-2026-11-20",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-20",
+    "title": "[S&P 500 Buffett Alpha] 워런 버핏형 해자·자사주소각·수주폭발 종목 발굴 리포트",
+    "summary": "[Track 1: 버핏 해자·자사주 소각] 가트너(IT, 주식수 -13.93% 소각·11/19 8-K) & FICO(-63.55% 폭락 해자 재평가): 전체 S&P 500 자사주 소각률 1위 IT 가 -32.93% 조정 구간(FCF Yield 11.90%, PER 12.28배)에서 Q3 10-Q 기준 올해만 783만 주($1.22B)를 매입·소각하며 내재가치를 끌어올리고 있습니다. FICO (ROIC 83.45%, PER 18.66배)는 FY26 10-K에서 매출 +27%·$3.1B 자사주 소각을...",
+    "tags": [
+      "IT",
+      "FICO",
+      "FIX",
+      "CAT",
+      "BKNG",
+      "MU"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-20.html"
+  },
+  {
     "id": "market-report-2026-11-19",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
