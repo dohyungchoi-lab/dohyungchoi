@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-20",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-20",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "SEC EDGAR 공시(13F-HR · 10-K · 10-Q · 8-K · Form 4/144) 및 앤스로픽(ANT) 상장 · 연준 매파 쇼크 심층 분석 다우 -1,101p 폭락(50,000선 붕괴) — 연준 12월 추가 금리 인상 공포와 스태그플레이션 우려: 10월 FOMC 의사록의 매파적 신호 에 더해 시카고 연은 오스턴 굴스비 총재 등이 인플레이션의 2% 목표 상회를 거듭 경고하면서 시장이 12월 8~9일 FOMC에서의 25bp 금리 인상을 빠르게 반영했습니다. 필라델피아 연은 제조업지수(6...",
+    "tags": [
+      "AAPL",
+      "NVDA",
+      "GOOGL",
+      "PLTR",
+      "MSFT",
+      "META"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-20.html"
+  },
+  {
     "id": "market-report-2026-11-19",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
@@ -8,14 +28,14 @@ window.DAILY_BRIEFINGS = [
     "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
     "date": "2026-11-19",
     "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
-    "summary": "미국 SEC EDGAR 공시(13F-HR, 10-K, 8-K, 13G/A, Form 4) 및 앤스로픽 IPO·엔비디아 실적 교차 심층 분석 | 앤스로픽(ANT) 역대 최대 $813억 IPO($83/주, 기업가치 ~$1.5조) 금일 나스닥 상장 & AMZN(+3.58%)·GOOGL(+0.80%) 재평가 | 엔비디아 Q3 매출 $1,158억(+103% YoY)·Q4 $1,300억 가이던스에도 젠슨 황 복귀 불허 속 AMD(+5.30%)·AVGO(+3.56%) 순환매 | FOMC 매파적 의사록·Q3 13F 버크셔·시타델·퍼싱 스퀘어 전략 대조",
+    "summary": "미국 SEC EDGAR 공시(13F-HR, 10-K, 10-Q, 8-K, 13G/A, Form 4/144) 및 앤스로픽 IPO · 엔비디아 실적 교차 심층 분석 앤스로픽(ANT) 역대 최대 $813억 IPO($83/주) 금일 나스닥 상장 & 백커(AMZN +3.58% · GOOGL +0.80%) 재평가: 앤스로픽이 공모 희망가($70~$78)를 웃도는 주당 $83.00(9.8억 주, 기업가치 약 $1.5조)로 공모가를 확정 하고 11월 19일 거래를 개시합니다. 핵심 전략 주주인 아마존(14.7%...",
     "tags": [
-      "GOOGL",
-      "PLTR",
-      "AAPL",
+      "AMZN",
+      "AVGO",
       "NVDA",
-      "AMD",
-      "AVGO"
+      "GOOGL",
+      "AAPL",
+      "PLTR"
     ],
     "html_path": "assets/briefings/market-report/2026-11-19.html"
   },
@@ -28,14 +48,14 @@ window.DAILY_BRIEFINGS = [
     "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
     "date": "2026-11-19",
     "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
-    "summary": "엔비디아 Q3 매출 $115.8B(+103%)·베라 루빈 NVL72 최고속 출하 vs 포스트 젠슨 황 체제 확정 × SK하이닉스 115만 원·삼성전기 81만 원(+7.43%)·삼성전자 메타 2나노 HBM4E 협력 | 앤트로픽 $1.51T 상장($26B 빅테크 연합) × MS Ignite MAI 7종 & Maia 300 vs 구글 Gemini 4 Neon | 현대차 보스턴 다이내믹스 100% 인수 & Atlas 반도체 팹 파일럿 × 소니 Soneium K-Pop 본드·삼성바이오 2.7조 유증 흥행",
+    "summary": "콜레트 크레스 임시 CEO가 이끈 엔비디아 첫 실적 발표에서 Q3 매출이 1,158억 달러(+103% YoY), Q4 가이던스가 1,300억 달러로 월가 예상을 크게 상회했고 차세대 베라 루빈 NVL72(GPU당 288GB HBM4·19.2 TB/s) 출하가 역대 최고 속도로 시작됐습니다. 다만 이사회가 사임한 젠슨 황의 복귀 불가를 공식화하며 엔비디아 주가는 2.89% 조정받은 반면, 핵심 파트너인 삼성전기(+7.43%, 810,000원·FC-BGA/MLCC 확대), SK하이닉스(1,144,00...",
     "tags": [
       "NVDA",
       "GOOGL",
       "MSFT",
-      "AMD",
-      "AVGO",
-      "TSM"
+      "AMZN",
+      "AAPL",
+      "META"
     ],
     "html_path": "assets/briefings/frontier-tech/2026-11-19.html"
   },
@@ -48,14 +68,14 @@ window.DAILY_BRIEFINGS = [
     "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
     "date": "2026-11-19",
     "title": "[S&P 500 Buffett Alpha] 워런 버핏형 해자·자사주소각·수주폭발 종목 발굴 리포트",
-    "summary": "[Track 1] GE 버노바(GEV, Q3 수주 +96%·RPO $197B·자사주 한도 $20B 2배 증액, FCF Yield 8.37%·ROIC 90.86%) & FICO(-63.5%)·IT(-13.9% 소각) 안전마진 심화 | [Track 2] 엔비디아(NVDA, 11/17 Q3 매출 $115.8B·PER 16.2배) & 마이크론(MU, Take-or-Pay 선수금 $13.0B·PER 9.5배) | [Track 3] 액센츄어(ACN, CEO $3.00M 매수·ROIC 20.3%)·아카마이(AKAM, CEO $2.55M·$19.9B RPO)·보잉(3인 $2.01M)",
+    "summary": "[Track 1: 버핏 해자·자사주 소각] GE 버노바(GEV, RPO $197B·자사주 한도 $20B 2배 증액) & FICO·가트너(IT) 안전마진 심화: 전력망·가스터빈 독점 해자의 GEV 가 Q3 유기적 수주 +96% 및 FCF $5.4B를 바탕으로 자사주 매입 한도를 $20B로 2배 상향했으나 풍력 적자·AI 전력주 차익실현으로 -35.4% 조정(FCF Yield 8.37%, ROIC 90.86%) 구간에 진입했습니다. 기존 소각 1위 IT (-13.93% 소각, -30.4% 낙폭, FC...",
     "tags": [
-      "GEV",
+      "FICO",
+      "IT",
       "NVDA",
       "MU",
-      "ACN",
-      "AKAM",
-      "IT"
+      "VRT",
+      "FIX"
     ],
     "html_path": "assets/briefings/buffett-alpha/2026-11-19.html"
   },
