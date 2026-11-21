@@ -20,6 +20,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-11-21.html"
   },
   {
+    "id": "buffett-alpha-2026-11-21",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-21",
+    "title": "[S&P 500 Buffett Alpha] 워런 버핏형 해자·자사주소각·수주폭발 종목 발굴 리포트",
+    "summary": "[Track 1: 버핏 해자·자사주 소각] 앱러빈(APP, Top 10 신규 진입·ROIC 84.97%) & 부킹홀딩스(BKNG, -$900M FTC 매출차감 착시·주식수 -5.52%): 테크·AI 인프라 전반의 투매 심화로 APP (-52.81% 낙폭, 9M $2.81B 소각 후 10월 +$3.2B 한도 증액)와 자산운용 해자 AMP (-16.12%, FCF Yield 17.91%)가 Track 1 Top 10에 신규 진입했습니다. BKNG (ROIC 71.87%, PER 15.63배)는 Q3 ...",
+    "tags": [
+      "BKNG",
+      "AVGO",
+      "MU",
+      "NVDA",
+      "CAT",
+      "FICO"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-21.html"
+  },
+  {
     "id": "market-report-2026-11-20",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
