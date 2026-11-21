@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-21",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-21",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "S&P 500 조정장 진입 · 나스닥 -5.28%(YTD 반납) · NVDA SEC 회계조사 충격 · GOOGL 시총 3위 탈환 · Q3 13F 심층 분석 월가 'AI 검은 금요일' — 나스닥 -5.28%(연간 수익률 전액 반납) & S&P 500·다우 동반 조정장 진입: 엔비디아(NVDA -14.01%, $125.53)에 대한 SEC 집행국의 회계 관행 조사 보도 와 젠슨 황 사임 후폭풍이 반도체 전 업종(AVGO -12%, MU -13%, AMD -11%~-13.7%) 패닉 셀링으로 전이되며 ...",
+    "tags": [
+      "NVDA",
+      "GOOGL",
+      "AVGO",
+      "MU",
+      "AAPL",
+      "MSFT"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-21.html"
+  },
+  {
     "id": "market-report-2026-11-20",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
