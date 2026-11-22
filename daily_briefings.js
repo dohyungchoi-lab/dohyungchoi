@@ -40,6 +40,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/frontier-tech/2026-11-22.html"
   },
   {
+    "id": "buffett-alpha-2026-11-22",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-22",
+    "title": "[S&P 500 Buffett Alpha] 워런 버핏형 해자·자사주소각·수주폭발 종목 발굴 리포트",
+    "summary": "[Track 1: 버핏 해자·자사주 소각·저평가] 어도비(ADBE, FCF Yield 12.50%·$24.55B 소각 여력) & 아메리프라이즈(AMP, FCF Yield 17.91%·$5.5B 신규 한도): AI 대체 우려와 CEO 승계(12/1 예정)로 -39.98% 조정받은 ADBE (ROIC 41.42%, PER 12.15배, 주식수 -6.16%)와 AUMA $1.8조 웰스매니지먼트 해자를 보유한 Track 1 Top 10 신규 진입주 AMP (ROIC 36.13%, 주식수 -5.97%)가 ...",
+    "tags": [
+      "IT",
+      "VRT",
+      "PLTR",
+      "FICO",
+      "BKNG",
+      "MU"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-22.html"
+  },
+  {
     "id": "market-report-2026-11-21",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
