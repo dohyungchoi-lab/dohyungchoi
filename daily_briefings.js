@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-22",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-22",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "주말 BTC $60K 탈환 · 트럼프 \"젠슨 황 복귀\" 촉구 vs NVDA 이사회 선긋기 · Signal OS 에이전트 차단 공방 · 추수감사절 PCE 프리뷰 엔비디아(`NVDA` -14.01%) 위기의 정치화 & 주말 BTC $60,000 선 회복: 금요일 나스닥 -5.28% 폭락(YTD 수익률 반납)과 S&P 500 공식 조정장(-11.6% from peak) 진입 직후, 도널드 트럼프 미 대통령이 11월 20~21일 공개 브리핑에서 젠슨 황 전 CEO에게 \"두 번째 기회(복귀)\"를 줘야 한다...",
+    "tags": [
+      "NVDA",
+      "AAPL",
+      "GOOGL",
+      "AMZN",
+      "PLTR",
+      "MSFT"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-22.html"
+  },
+  {
     "id": "market-report-2026-11-21",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
