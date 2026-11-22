@@ -20,6 +20,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-11-22.html"
   },
   {
+    "id": "frontier-tech-2026-11-22",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-11-22",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "11월 20일(현지시간) 로이터가 미 증권거래위원회(SEC) 집행부의 엔비디아 회계 관행 및 싱가포르 허브 매출 공시·매출채권·고객사 금융보증 조사 착수를 보도하면서 NVDA가 하루 만에 14.01% 폭락($125.53, 시총 4위 추락) 했고, 필라델피아 반도체지수(SOX)가 10.7% 급락하며 나스닥 100이 고점 대비 -20% 약세장에 진입했습니다. 여파로 삼성전자(-7.01%, 183,100원)·SK하이닉스(-5.92%, 1,113,000원)·삼성전기(-12.54%, 774,000원) 와 ...",
+    "tags": [
+      "NVDA",
+      "GOOGL",
+      "MSFT",
+      "AMZN",
+      "AAPL",
+      "META"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-11-22.html"
+  },
+  {
     "id": "market-report-2026-11-21",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
