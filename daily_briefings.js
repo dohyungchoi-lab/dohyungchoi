@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-23",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-23",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "미 지수 선물 +0.8~1.2% 안도 반등 · 한·중·대만 주말 긴급 시장안정화 총력전 · 구글 TPU Intel EMIB-T 수율 병목·TSMC 복귀 논의 · PLTR 경영진 4인 Form 144 미 지수 선물 안도 반등(+0.76~1.19%) vs 한·중·대만 주말 긴급 시장방어 총력전: 2020년 3월 이후 최악의 주간 낙폭(나스닥 -10%+)을 기록한 뒤 일요일 밤 미국 지수 선물이 기술적 반등으로 출발했습니다. 아시아에서는 일본 증시 휴장(근로감사의 날) 으로 유동성이 얇은 가운데, 중국...",
+    "tags": [
+      "PLTR",
+      "GOOGL",
+      "NVDA",
+      "AAPL",
+      "MSFT",
+      "META"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-23.html"
+  },
+  {
     "id": "market-report-2026-11-22",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
