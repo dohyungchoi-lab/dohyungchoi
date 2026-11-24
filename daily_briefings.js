@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-24",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-24",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "젠슨 황 NVDA CEO 전격 복귀(+31.48%)에 나스닥 +6.51% 폭등 · S&P 500 7,237 탈환 · 구글 Search AI Mode 개인화 확장 · 11/25 PCE 경계감 유지 젠슨 황 CEO 전격 복귀(NVDA +31.48%)가 촉발한 역대급 AI 안도 랠리(나스닥 +6.51%): 11/12 사임 후 불과 11일 만에 엔비디아 이사회가 11/23 Form 8-K(Item 5.02) 를 통해 젠슨 황의 사장·CEO·이사 즉각 복직을 공식화하며(미 정부 고위층 의견 청취 후 국가안...",
+    "tags": [
+      "NVDA",
+      "GOOGL",
+      "PLTR",
+      "AAPL",
+      "MU",
+      "META"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-24.html"
+  },
+  {
     "id": "market-report-2026-11-23",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
@@ -18,6 +38,46 @@ window.DAILY_BRIEFINGS = [
       "META"
     ],
     "html_path": "assets/briefings/market-report/2026-11-23.html"
+  },
+  {
+    "id": "frontier-tech-2026-11-23",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-11-23",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "직전 뉴욕장 엔비디아(-14.01%, $125.53 · SEC 회계 조사 보도 및 젠슨 황 사임 후폭풍)와 SOX(-10.73%) 폭락 여파가 월요일 아침 서울 증시를 덮치며 23일(월) 오전 프리마켓·장 초반 삼성전자와 SK하이닉스가 5~6%대 추가 하락 압력을 받았습니다. 이에 정부는 22일 이형일 재정경제부 장관 주재 긴급 F4 회의 를 열고 증시안정펀드(증안펀드) 가동 준비 에 착수했습니다. 반면 간밤 열린 미국 주가지수 선물에서는 나스닥 100 선물(~+2%)과 S&P 500 선물(~+1...",
+    "tags": [
+      "NVDA",
+      "GOOGL",
+      "MSFT",
+      "AMZN",
+      "AAPL",
+      "META"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-11-23.html"
+  },
+  {
+    "id": "buffett-alpha-2026-11-23",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-23",
+    "title": "[S&P 500 Buffett Alpha] 워런 버핏형 해자·자사주소각·수주폭발 종목 발굴 리포트",
+    "summary": "[Track 1: 버핏 해자·고강도 자사주 소각] 익스피디아(EXPE, -7.72% 소각·FCF Yield 13.45%) & 데커스 아웃도어(DECK, -7.40% 소각·무차입 PER 10.33배): 52주 고점 대비 각각 -31.3%, -36.3% 조정받은 EXPE ($5.1B 잔여 소각 한도·$12.58B 무이자 선수금)와 HOKA·UGG 듀오를 앞세운 무차입 브랜드 해자주 DECK ($4.41B 잔여 한도·ROIC 38.39%)가 막대한 현금창출력을 바탕으로 초고속 유통주식수 축소(-7%대)...",
+    "tags": [
+      "FICO",
+      "BKNG",
+      "IT",
+      "MU",
+      "AVGO",
+      "PLTR"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-23.html"
   },
   {
     "id": "market-report-2026-11-22",
