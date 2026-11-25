@@ -20,6 +20,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-11-25.html"
   },
   {
+    "id": "buffett-alpha-2026-11-25",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-25",
+    "title": "[S&P 500 Buffett Alpha] 워런 버핏형 해자·자사주소각·수주폭발 종목 발굴 리포트",
+    "summary": "[Track 1: 버핏 해자·자사주 소각·저평가] 델(DELL, 11/24 Q3 실적 폭발+$25B 자사주 증액)·페어 아이작(FICO, ROIC 83.5% vs -62.2% 폭락)·부킹 홀딩스(BKNG, 52주 저점 근접·FCF Yield 8.47%): 11/24 장후 공시된 DELL Q3 FY27 8-K 에서 매출 $54.9B(+103% YoY)·AI 백로그 $132.3B·신규 자사주 매입 +$25B가 확인됐고(ROIC 51.22%, 주식수 -4.96%), BKNG ($146.64, -33.5...",
+    "tags": [
+      "FICO",
+      "BKNG",
+      "CAT",
+      "MU",
+      "AVGO",
+      "VRT"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-25.html"
+  },
+  {
     "id": "market-report-2026-11-24",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
