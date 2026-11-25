@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-25",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-25",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "다우 50,018(+0.85%) 돌파 vs 나스닥 -1.48% 기술주 숨고르기 · GOOGL C$60억 채권 8-K · META Class C 중단 · Dell AI 백로그 $1,323억 반도체 차익실현(나스닥 -1.48%) vs 가치주 로테이션(다우 50,018.70, +0.85%): 전일 젠슨 황 복귀 랠리(+31.48%) 이후 NVDA(-5.86%)·MU(-11.40%)·AMD(-8.86%) 등 반도체 중심 차익실현이 출회된 반면, 컨퍼런스보드 11월 소비자신뢰지수 급등(103.3, 22개월...",
+    "tags": [
+      "GOOGL",
+      "META",
+      "NVDA",
+      "MU",
+      "PLTR",
+      "AAPL"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-25.html"
+  },
+  {
     "id": "market-report-2026-11-24",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
