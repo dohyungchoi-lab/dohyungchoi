@@ -20,6 +20,26 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-11-26.html"
   },
   {
+    "id": "frontier-tech-2026-11-26",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-11-26",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "BNP 파리바 엑산이 2027년 중반 메모리 공급과잉·루빈 울트라 HBM 탑재량 축소 우려를 들어 마이크론(MU) 목표가를 $1,700→$775로 하향 하자, 25일 뉴욕장 메모리·칩주(MU -11%, AMD -9.26%, NVDA -6.58%)와 도쿄(어드반테스트 -12.94%, TEL -12.5%), 서울 증시(코스피 -6.16%, 삼전 -9.87%, 하닉 -11.05%)가 일제히 급락했습니다. 이에 SK하이닉스는 올해 100조 원 규모 주주환원 을 재확인했고 삼성전기는 1조 7,319억 원 ...",
+    "tags": [
+      "MU",
+      "NVDA",
+      "GOOGL",
+      "MSFT",
+      "AMZN",
+      "AAPL"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-11-26.html"
+  },
+  {
     "id": "market-report-2026-11-25",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
