@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-26",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-26",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "장중 -4.5% 폭락 딛고 V자 반등(다우 +0.33% · 나스닥 -0.62%) · Core PCE 3.3% & 14개국 301조 관세 · PLTR 피터 틸 $1.22억 매수 Form 4 · NVDA S&P 부정적 관찰대상 '뜨거운 성장·고착 물가·관세 충격'을 삼킨 장중 대역전극: 11/25 발표된 10월 Core PCE 3.3% YoY (예상 3.2% 상회)·Q3 GDP 2차 4.3% 상향·실업수당 18.9만 건 호조에 더해 트럼프 행정부의 14개국 Section 301 관세 제안 이 겹치며 ...",
+    "tags": [
+      "PLTR",
+      "NVDA",
+      "META",
+      "AMZN",
+      "GOOGL",
+      "AAPL"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-26.html"
+  },
+  {
     "id": "market-report-2026-11-25",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
