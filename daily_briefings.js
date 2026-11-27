@@ -20,6 +20,46 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-11-27.html"
   },
   {
+    "id": "frontier-tech-2026-11-27",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-11-27",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "삼성전자가 ISSCC 2027 발표를 앞둔 세계 최초 500단대(5XX-Layer) 3D 낸드(웨이퍼 본딩 원가 -33%) 를 공개하고 오늘(27일) 역대 최대 30조 원(주당 4,601원) 현금배당 을 지급합니다. 반면 화웨이의 핀밀도 2배(4096비트)·WoW 하이브리드 본딩 HBM 설계 예고 와 미 상무부(BIS) 원격접속 차단 속 엔비디아의 동남아 4국(싱가포르·말레이·태국·인니) AI 서버 출하 중단 이 겹치며 한·일 증시(26일 코스피 +0.29%, 닛케이 +0.86%)의 장 후반 상승...",
+    "tags": [
+      "NVDA",
+      "GOOGL",
+      "MSFT",
+      "AMZN",
+      "AAPL",
+      "META"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-11-27.html"
+  },
+  {
+    "id": "buffett-alpha-2026-11-27",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-27",
+    "title": "[S&P 500 Buffett Alpha] 워런 버핏형 해자·자사주소각·수주폭발 종목 발굴 리포트",
+    "summary": "[Track 3: Form 4 초대형 내부자 매수 급부상] 팔란티어(PLTR) 피터 틸 $122.25M 장내 매수(Track 2+3 교차) & 코히어런트(COHR) 파글리우카 이사 +$34.65M 추가 매집(누적 $51.09M): 2020년 직상장 이후 꾸준한 매도자였던 피터 틸 의장이 11/24 공시 Form 4 에서 Rule 10b5-1 계획에 따라 850,100주($122.25M @ $142.91~$144.61)를 전격 매수하며 Track 3 신규 1위에 올랐고, COHR 파글리우카 이사도 ...",
+    "tags": [
+      "PLTR",
+      "NVDA",
+      "AVGO",
+      "FICO",
+      "IT",
+      "BKNG"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-27.html"
+  },
+  {
     "id": "market-report-2026-11-26",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
