@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-27",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-27",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "유럽·亞 안도 랠리(DAX +2.14% · TAIEX +2.50%) & 한은 금리 3.25% 인상 · PLTR 폴란드 'Saturn' 계약(11/27) · 버핏 $54.7억 기부 · 시타델 $35억 수익 환원 · 애크먼 '3% 물가론' 추수감사절 공백을 메운 유럽·아시아 반등과 한은의 '매파적 성장 상향': 미 증시가 휴장한 11/26, 유럽(DAX +2.14%)과 대만(TAIEX +2.50%)·일본(닛케이 +0.86%)이 301조 관세 우려 진정 속에 반등했고 미 지수 선물(+0.43%~+0.5...",
+    "tags": [
+      "PLTR",
+      "AAPL",
+      "NVDA",
+      "GOOGL",
+      "MSFT",
+      "META"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-27.html"
+  },
+  {
     "id": "market-report-2026-11-26",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
