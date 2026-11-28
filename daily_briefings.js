@@ -20,6 +20,46 @@ window.DAILY_BRIEFINGS = [
     "html_path": "assets/briefings/market-report/2026-11-28.html"
   },
   {
+    "id": "frontier-tech-2026-11-28",
+    "stream": "frontier-tech",
+    "stream_label_kr": "빅테크 & 4대 미래기술 (유튜버 10인)",
+    "stream_label_en": "Big Tech & 4 Frontier Techs (Top 10 Creators)",
+    "stream_full_kr": "글로벌 빅테크 & 4대 미래기술 데일리 브리핑 (한·미 Top 10 테크 유튜버 인사이트 에디션)",
+    "stream_full_en": "Global Big Tech & 4 Frontier Technologies Daily Briefing (US/KR Top 10 Creators Edition)",
+    "date": "2026-11-28",
+    "title": "🔭 [글로벌 테크 × 한·미 유튜버 10인 인사이트] 빅테크·반도체 & 4대 미래기술 데일리 브리핑",
+    "summary": "OpenAI가 자체 브로드컴 협업 커스텀 칩 'Jalapeño' 에 이어 AI 기반 재귀적 자기개선(RSI)으로 AMD 차세대 GPU RTL 성능을 14% 끌어올렸다고 공개했습니다. 27일 앤트로픽(ANT $91.88, +10.98%) ·마이크론(+7.60%)이 주도한 미 블랙프라이데이 랠리와 맞물려 코스피가 4,915.68(+4.34%) , 삼성전자(179,100원, +4.55%)·SK하이닉스(1,110,000원, +5.41%)·어드반테스트(¥26,585, +7.06%)가 일제히 급등했습니다. ...",
+    "tags": [
+      "TSLA",
+      "NVDA",
+      "GOOGL",
+      "MSFT",
+      "AMZN",
+      "AAPL"
+    ],
+    "html_path": "assets/briefings/frontier-tech/2026-11-28.html"
+  },
+  {
+    "id": "buffett-alpha-2026-11-28",
+    "stream": "buffett-alpha",
+    "stream_label_kr": "S&P 500 버핏 알파 스캐너",
+    "stream_label_en": "S&P 500 Buffett Alpha Scanner",
+    "stream_full_kr": "S&P 500 워런 버핏 알파 & 신규 종목 발굴 스캐너",
+    "stream_full_en": "S&P 500 Warren Buffett Alpha & Stock Discovery Scanner",
+    "date": "2026-11-28",
+    "title": "[S&P 500 Buffett Alpha] 워런 버핏형 해자·자사주소각·수주폭발 종목 발굴 리포트",
+    "summary": "[Track 1: 버핏 해자·자사주 소각] 델 테크놀로지스(DELL) Q3 $54.9B(+103% YoY)·$25B 자사주 증액 vs -46.8% 낙폭 & 부킹(BKNG)·가트너(IT) 고강도 소각: DELL 이 11/24 Q3 FY27 8-K 에서 AI 서버 백로그 $132.3B와 자사주 한도 +$25B 증액을 확정하고도 고점 대비 -46.78%(ROIC 59.1%, PER 13.3배) 조정 구간에 머물렀습니다. BKNG (-31.9%, ROIC 71.9%, 소각 -5.52%)은 $900M 일회...",
+    "tags": [
+      "BKNG",
+      "IT",
+      "FIX",
+      "MU",
+      "AVGO",
+      "PLTR"
+    ],
+    "html_path": "assets/briefings/buffett-alpha/2026-11-28.html"
+  },
+  {
     "id": "market-report-2026-11-27",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
