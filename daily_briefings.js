@@ -1,5 +1,25 @@
 window.DAILY_BRIEFINGS = [
   {
+    "id": "market-report-2026-11-28",
+    "stream": "market-report",
+    "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
+    "stream_label_en": "Global Tech & Superinvestor Pulse",
+    "stream_full_kr": "글로벌 테크 & 슈퍼인베스터 데일리 동향 리포트",
+    "stream_full_en": "Global Tech & Superinvestor Daily Trend Report",
+    "date": "2026-11-28",
+    "title": "글로벌 빅테크 & 슈퍼인베스터 데일리 마켓 리포트",
+    "summary": "나스닥 +2.31% · KOSPI +4.34%(4,915) 글로벌 동반 랠리 | PLTR 폴란드 $3억 'Saturn' 공식 서명(+5.24%) · AAPL Form 144 · 버핏 $54.7억 기부 · 시타델 $35억 환원 블랙프라이데이 '기술주·반도체 V자 급반등' — 1년 내 최고 주간 랠리 완성: 11/27 미 증시는 13:00 ET 조기 폐장 속에서도 나스닥(+2.31%)·S&P 500(+1.60%)이 급등하며 주간 기준 +5.6%~+6.7%(2025년 4월 이후 최대) 상승을 기록했고,...",
+    "tags": [
+      "PLTR",
+      "AAPL",
+      "MU",
+      "GOOGL",
+      "TSLA",
+      "AMZN"
+    ],
+    "html_path": "assets/briefings/market-report/2026-11-28.html"
+  },
+  {
     "id": "market-report-2026-11-27",
     "stream": "market-report",
     "stream_label_kr": "글로벌 테크 & 슈퍼인베스터 동향",
